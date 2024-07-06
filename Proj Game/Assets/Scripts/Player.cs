@@ -24,21 +24,27 @@ public class Player : MonoBehaviour
     private bool faceRight = true;
     private GameObject stave;
 
-    private GameObject roomBound;
+    [SerializeField] private GameObject roomBound;
+
+    public VirtualCamera virtualCamera;
+
+    public RoomGenerator roomGenerator;
 
     void Start()
     {
-
+        transform.position = Vector3.zero;
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         dashTime = -dashCoolTime;
         stave = GameObject.Find("Stave");
+        roomBound = roomGenerator.rooms[0].gameObject;
+        //virtualCamera.SetCameraPosition();
     }
 
     void Update()
     {
+        Movement();
         CheckInput();
-
         dashTime -= Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && dashTime < -dashCoolTime) dashTime = dashDuration;
@@ -47,10 +53,6 @@ public class Player : MonoBehaviour
         AnimatorControllers();
     }
 
-    private void FixedUpdate()
-    {
-        Movement();
-    }
 
     public void AttackOver()
     { 
@@ -65,6 +67,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
+            Instantiate(Resources.Load("P"));
         }
      
 
@@ -105,11 +108,14 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<LayerMask>().Equals("Door"))
-            EnterRoom(collision.name, collision.GetComponentInParent<Transform>().position);
-        else if (collision.GetComponent<LayerMask>().Equals("Room"))
+        if (collision.name.Contains("RoomBound"))
+        {
             roomBound = collision.gameObject;
+            virtualCamera.SetCameraPosition();
+        }
+            
     }
+
 
     public GameObject GetRoomBound()
     {
