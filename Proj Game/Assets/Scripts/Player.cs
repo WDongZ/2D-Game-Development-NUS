@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class Player : MonoBehaviour
 {
@@ -8,15 +9,12 @@ public class Player : MonoBehaviour
 
     [Header("Dash info")]
     [SerializeField] private float dashDuration;
-    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashSpeedFactor;
     [SerializeField] private float dashCoolTime;
     private float dashTime;
 
     [Header("Attack info")]
-    [SerializeField] private float comboTime = .3f;
-    private float comboTimeCounter;
     private bool isAttacking = false;
-    private int comboCounter;
 
     private Animator anim;
     private Rigidbody2D rb;
@@ -24,22 +22,22 @@ public class Player : MonoBehaviour
     private float yInput;
     private int facingDir = 1;
     private bool faceRight = true;
+    private GameObject stave;
+
+    private GameObject roomBound;
 
     void Start()
     {
+
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         dashTime = -dashCoolTime;
+        stave = GameObject.Find("Stave");
     }
 
     void Update()
     {
-        Movement();
         CheckInput();
-
-        comboTimeCounter -= Time.deltaTime;
-
-        if (comboTimeCounter < 0) comboCounter = 0;
 
         dashTime -= Time.deltaTime;
 
@@ -49,13 +47,14 @@ public class Player : MonoBehaviour
         AnimatorControllers();
     }
 
+    private void FixedUpdate()
+    {
+        Movement();
+    }
+
     public void AttackOver()
     { 
         isAttacking = false;
-
-        comboCounter++;
-
-        if (comboCounter > 2) comboCounter = 0;
     }
 
     private void CheckInput()
@@ -66,7 +65,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
-            comboTimeCounter = comboTime; 
         }
      
 
@@ -74,7 +72,9 @@ public class Player : MonoBehaviour
 
     private void Movement()
     {
-        if (dashTime > 0) rb.velocity = new Vector2(facingDir * dashSpeed, 0);
+        Vector2 normSpeed = GetComponent<Rigidbody2D>().velocity.normalized;
+        if (dashTime > 0) rb.velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x + normSpeed.x * dashSpeedFactor,
+                                                    GetComponent<Rigidbody2D>().velocity.y + normSpeed.y * dashSpeedFactor);
         else rb.velocity = new Vector2(xInput * moveSpeed, yInput * moveSpeed);
     }
 
@@ -94,7 +94,6 @@ public class Player : MonoBehaviour
         anim.SetBool("isMoving", isMoving);
         anim.SetBool("isDashing", dashTime > 0);
         anim.SetBool("isAttacking", isAttacking);
-        anim.SetInteger("comboCounter", comboCounter);
     }
 
     private void Flip()
@@ -104,5 +103,22 @@ public class Player : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<LayerMask>().Equals("Door"))
+            EnterRoom(collision.name, collision.GetComponentInParent<Transform>().position);
+        else if (collision.GetComponent<LayerMask>().Equals("Room"))
+            roomBound = collision.gameObject;
+    }
+
+    public GameObject GetRoomBound()
+    {
+        return roomBound;
+    }
+
+    private void EnterRoom (string doorName, Vector2 pos)
+    {
+
+    }
 
 }
