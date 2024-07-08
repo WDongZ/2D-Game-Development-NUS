@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -22,13 +23,8 @@ public class Player : MonoBehaviour
     private float yInput;
     private int facingDir = 1;
     private bool faceRight = true;
-    private GameObject stave;
 
-    [SerializeField] private GameObject roomBound;
-
-    public VirtualCamera virtualCamera;
-
-    public RoomGenerator roomGenerator;
+    private bool miniMaping = false;
 
     void Start()
     {
@@ -36,9 +32,6 @@ public class Player : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         dashTime = -dashCoolTime;
-        stave = GameObject.Find("Stave");
-        roomBound = roomGenerator.rooms[0].gameObject;
-        //virtualCamera.SetCameraPosition();
     }
 
     void Update()
@@ -67,9 +60,13 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
-            Instantiate(Resources.Load("P"));
         }
      
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            miniMaping = !miniMaping;
+            GameObject.Find("MiniMap").GetComponent<RawImage>().enabled = miniMaping;
+        }
 
     }
 
@@ -106,21 +103,8 @@ public class Player : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.name.Contains("RoomBound"))
-        {
-            roomBound = collision.gameObject;
-            virtualCamera.SetCameraPosition();
-        }
-            
-    }
 
 
-    public GameObject GetRoomBound()
-    {
-        return roomBound;
-    }
 
     private void EnterRoom (string doorName, Vector2 pos)
     {

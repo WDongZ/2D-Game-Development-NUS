@@ -12,7 +12,6 @@ public class RoomGenerator : MonoBehaviour
     [Header("Room Info")]
     public GameObject roomPrefab;
     public int roomNumber;
-    public Color startColor, endColor;
     private GameObject endRoom;
 
     [Header("Position Control")]
@@ -38,7 +37,7 @@ public class RoomGenerator : MonoBehaviour
             ChangePointPos();
         }
 
-        rooms[0].GetComponent<SpriteRenderer>().color = startColor;
+        rooms[0].transform.Find("Mask").gameObject.SetActive(false);
 
         endRoom = rooms[0].gameObject;
         foreach (var room in rooms)
@@ -52,7 +51,6 @@ public class RoomGenerator : MonoBehaviour
         }
         FindEndRoom();
 
-        endRoom.GetComponent<SpriteRenderer>().color = endColor;
     }
 
     // Update is called once per frame
