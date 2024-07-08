@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9fae1e2e914b074bb262f4a7c7e920b, type: 3}
+  m_Name: Test_BuffData
+  m_EditorClassIdentifier: 
+  id: 0
+  buffName: 
+  buffDescription: 
+  priority: 0
+  buffIcon: {fileID: 0}
+  maxStack: 0
+  tags: []
+  isForever: 0
+  duration: 0
+  tickRate: 0
+  buffUpdateTime: 0
+  buffRemoveUpdate: 0
+  OnCreate: {fileID: 0}
+  OnRemove: {fileID: 0}
+  OnTick: {fileID: 0}
+  OnDamage: {fileID: 0}
+  OnTakeDamage: {fileID: 0}
