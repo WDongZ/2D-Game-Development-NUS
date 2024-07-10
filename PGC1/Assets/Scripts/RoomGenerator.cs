@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class RoomGenerator : MonoBehaviour
 {
@@ -11,8 +14,8 @@ public class RoomGenerator : MonoBehaviour
 
     [Header("Room Info")]
     public GameObject roomPrefab;
-    public int roomNumber;
-    public Color startColor, endColor;
+    public TMP_InputField roomNumberInput;
+    private int roomNumber;
     private GameObject endRoom;
 
     [Header("Position Control")]
@@ -31,14 +34,18 @@ public class RoomGenerator : MonoBehaviour
 
     void Start()
     {
+        
+    }
+
+    private void Setrooms()
+    {
         for (int i = 0; i < roomNumber; i++)
         {
             rooms.Add(Instantiate(roomPrefab, generatorPoint.position, Quaternion.identity).GetComponent<Room>());
-
             ChangePointPos();
         }
 
-        rooms[0].GetComponent<SpriteRenderer>().color = startColor;
+        rooms[0].transform.Find("Mask").gameObject.SetActive(false);
 
         endRoom = rooms[0].gameObject;
         foreach (var room in rooms)
@@ -51,8 +58,6 @@ public class RoomGenerator : MonoBehaviour
             SetupRoom(room, room.transform.position);
         }
         FindEndRoom();
-
-        endRoom.GetComponent<SpriteRenderer>().color = endColor;
     }
 
     // Update is called once per frame
@@ -60,7 +65,16 @@ public class RoomGenerator : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
+            roomNumber = int.Parse(roomNumberInput.text);
+            Setrooms();
+        }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SceneManager.LoadScene(0);
         }
     }
 

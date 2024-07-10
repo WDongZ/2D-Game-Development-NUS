@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Wand : MonoBehaviour
 {
-    public float interval;
+    public GameObject player;
     public float damage;
+    public float interval;
     public GameObject bulletPrefab;
     protected Transform muzzlePos;
 
@@ -35,6 +36,7 @@ public class Wand : MonoBehaviour
         {
             transform.localScale = new Vector3(flipY, flipY,1);
         }
+        damage = player.GetComponent<Player>().atk;
         Shoot();
     }
     protected virtual void Shoot()
@@ -59,10 +61,10 @@ public class Wand : MonoBehaviour
     {
         //动画
 
-        //GameObject bullet = Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
-        GameObject bullet = ObjectPool.Instance.GetObject(bulletPrefab);
+        GameObject bullet = Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
         bullet.transform.position = muzzlePos.position;
-
+        bullet.GetComponent<Bullet>().SetDamage(damage);
         bullet.GetComponent<Bullet>().SetSpeed(direction);
     }
+
 }

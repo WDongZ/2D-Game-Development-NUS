@@ -2,9 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+
+    public int hp = 6;
+    public int def = 0;
+    public int atk = 0;
+
+    public GameObject[] wands;
+    private int wandnum;
+
     [SerializeField] private float moveSpeed;
 
     [Header("Dash info")]
@@ -22,17 +31,11 @@ public class Player : MonoBehaviour
     private float yInput;
     private int facingDir = 1;
     private bool faceRight = true;
-    private GameObject stave;
 
-    [SerializeField] private GameObject roomBound;
+    [Header("Map info")]
+    [SerializeField] private float mapSpeed;
+    public Camera miniMap;
 
-    public VirtualCamera virtualCamera;
-
-    public RoomGenerator roomGenerator;
-
-    //添加法杖
-    public GameObject[] wands;
-    private int wandnum;
 
     void Start()
     {
@@ -40,11 +43,7 @@ public class Player : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         dashTime = -dashCoolTime;
-        stave = GameObject.Find("Stave");
-        roomBound = roomGenerator.rooms[0].gameObject;
-        //virtualCamera.SetCameraPosition();
 
-        //激活法杖
         wands[0].SetActive(true);
     }
 
@@ -58,13 +57,6 @@ public class Player : MonoBehaviour
 
         checkFlip();
         AnimatorControllers();
-
-        //SwitchWand();//切换法杖
-    }
-
-    void SwitchWand()//切换法杖
-    {
-        
     }
 
 
@@ -81,9 +73,20 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
-            Instantiate(Resources.Load("P"));
         }
      
+        if (Input.GetKey(KeyCode.Tab))
+        {
+            GameObject.Find("MiniMap").GetComponent<RawImage>().enabled = true;
+            rb.velocity = Vector2.zero;
+            miniMap.transform.position = new Vector3(miniMap.transform.position.x + xInput * mapSpeed * Time.deltaTime,
+                miniMap.transform.position.y + yInput * mapSpeed * Time.deltaTime,
+                miniMap.transform.position.z);
+        }
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            GameObject.Find("MiniMap").GetComponent<RawImage>().enabled = false;
+        }
 
     }
 
@@ -120,21 +123,8 @@ public class Player : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.name.Contains("RoomBound"))
-        {
-            roomBound = collision.gameObject;
-            virtualCamera.SetCameraPosition();
-        }
-            
-    }
 
 
-    public GameObject GetRoomBound()
-    {
-        return roomBound;
-    }
 
     private void EnterRoom (string doorName, Vector2 pos)
     {

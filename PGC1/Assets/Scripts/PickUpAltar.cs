@@ -4,9 +4,21 @@ using UnityEngine;
 
 public class PickUpAltar : MonoBehaviour
 {
+    public GameObject playerGameObject;
+
+    private Player player;
+
+    private BuffManager buffManager;
+
     public GameObject floatingItems;
 
     private bool InRange = false;
+
+    void Start()
+    {
+        player = playerGameObject.GetComponent<Player>();
+        buffManager = playerGameObject.GetComponent<BuffManager>();
+    }
 
     void Update()
     {
@@ -45,8 +57,18 @@ public class PickUpAltar : MonoBehaviour
         Debug.Log("Picked up Item");
         if(floatingItems != null)
         {
-            Destroy(floatingItems);
+            if(floatingItems.name == "ShotgunStuff")
+            {
+                player.wands[1].SetActive(true);
+                player.wands[0].SetActive(false);
+            }
+            if(floatingItems.name == "DeadBuff")
+            {
+                Debug.Log("DeadBuff");
+                buffManager.BuffChange(1);
+            }
             Debug.Log("Floating item destroyed.");
+            Destroy(floatingItems);
         }
     }
 }

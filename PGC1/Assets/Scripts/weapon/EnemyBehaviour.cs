@@ -11,7 +11,7 @@ public class EnemyBehaviour : MonoBehaviour
         if(collision.name == "Bullet(Clone)")
         {
             Bullet bullet = collision.GetComponent<Bullet>();
-            health -= bullet.hdamage;
+            health -= bullet.damage;
             if(health <= 0)
             {
                 Destroy(gameObject);
