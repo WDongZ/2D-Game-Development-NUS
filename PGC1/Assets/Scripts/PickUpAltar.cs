@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUpAltar : MonoBehaviour
 {
+    public BuffData buffData;
     public GameObject playerGameObject;
 
     private Player player;
@@ -62,10 +63,9 @@ public class PickUpAltar : MonoBehaviour
                 player.wands[1].SetActive(true);
                 player.wands[0].SetActive(false);
             }
-            if(floatingItems.name == "DeadBuff")
+            if(floatingItems.name == "BurnBuff")
             {
-                Debug.Log("DeadBuff");
-                buffManager.BuffChange(1);
+                buffManager.BuffAdd(buffData);
             }
             Debug.Log("Floating item destroyed.");
             Destroy(floatingItems);

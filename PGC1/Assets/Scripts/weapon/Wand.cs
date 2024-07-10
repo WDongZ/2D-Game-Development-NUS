@@ -5,7 +5,7 @@ using UnityEngine;
 public class Wand : MonoBehaviour
 {
     public GameObject player;
-    public float damage;
+    public float damage = 5;
     public float interval;
     public GameObject bulletPrefab;
     protected Transform muzzlePos;
@@ -16,6 +16,9 @@ public class Wand : MonoBehaviour
     protected float timer;
 
     protected float flipY;
+
+    public float burndamage =0;
+    public float burninterval =0;
 
     //protected Animator animator;
     protected virtual void Start()
@@ -37,6 +40,8 @@ public class Wand : MonoBehaviour
             transform.localScale = new Vector3(flipY, flipY,1);
         }
         damage = player.GetComponent<Player>().atk;
+        burndamage = player.GetComponent<Player>().buffdamage;
+        burninterval = player.GetComponent<Player>().buffinterval;
         Shoot();
     }
     protected virtual void Shoot()
@@ -65,6 +70,9 @@ public class Wand : MonoBehaviour
         bullet.transform.position = muzzlePos.position;
         bullet.GetComponent<Bullet>().SetDamage(damage);
         bullet.GetComponent<Bullet>().SetSpeed(direction);
+        if(burndamage != 0)
+        {
+            bullet.GetComponent<Bullet>().SetBurn(burndamage, burninterval);
+        }
     }
-
 }

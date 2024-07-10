@@ -11,6 +11,10 @@ public class Player : MonoBehaviour
     public int def = 0;
     public int atk = 0;
 
+    public float buffinterval;
+
+    public float buffdamage;
+
     public GameObject[] wands;
     private int wandnum;
 

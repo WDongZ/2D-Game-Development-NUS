@@ -4,26 +4,27 @@ using UnityEngine;
 
 public class BuffManager : MonoBehaviour
 {
-    public int buffAmount;
 
     public Player GameObject;
 
-    public void BuffChange(int buffAmount)
+    public void BuffChange(string buffName, int buffNum)
     {
-        switch (buffAmount)
+        switch (buffName)
         {
-            case 0:
-                GameObject.hp += 100;
-                break;
-            case 1:
-                GameObject.atk += 100;
-                break;
-            case 2:
-                GameObject.def += 100;
+            case "伤害增加":
+                GameObject.buffinterval += buffNum;
+                GameObject.buffdamage += buffNum;
                 break;
             default:
                 Debug.Log("Unknown buff type");
                 break;
         }
     }
+
+    public void BuffAdd(BuffData buffData)
+    {
+        GameObject.buffinterval += buffData.interval;
+        GameObject.buffdamage += buffData.buffnum;
+    }
+    
 }

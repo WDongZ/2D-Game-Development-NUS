@@ -7,6 +7,10 @@ public class BulletData : ScriptableObject
 {
     public float damage;
     public float speed;
+
+    public float burndamage;
+
+    public float burninterval;
     //public Color color;
     //public GameObject hitEffect;
 }

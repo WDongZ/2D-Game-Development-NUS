@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 379195ace60d41c49aa8df59e6711abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  damage: 5
   interval: 0.25
-  damage: 0
   bulletPrefab: {fileID: 8982252307934283585, guid: 43d5e8095a042af41a0febd385dd5690, type: 3}

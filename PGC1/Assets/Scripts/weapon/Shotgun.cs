@@ -13,7 +13,7 @@ public class Shotgun : Wand
 
         for(int i = 0; i < bulletNum; i++)
         {
-            GameObject bullet = Instantiate(bulletPrefab, muzzlePos.position, Quaternion.identity);
+            GameObject bullet = ObjectPool.Instance.GetObject(bulletPrefab);
             bullet.transform.position = muzzlePos.position;
             bullet.GetComponent<Bullet>().SetDamage(damage);
 
