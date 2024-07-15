@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     private PlayerAttribute playerAttribute;
+    public GameObject deadMenu;
 
     [Header("Dash info")]
     [SerializeField] private float dashDuration;
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
         AnimatorControllers();
         if (playerAttribute.HP <= 0)
         {
+            deadMenu.SetActive(true);
             playerAttribute.HP = 0;
             isDead = true;
             rb.velocity = Vector2.zero;
@@ -156,7 +158,6 @@ public class PlayerController : MonoBehaviour
     private void DestroyPlayer()
     {
         Destroy(gameObject);
-        GameObject.Find("Canvas").GetComponent<UIController>().GameOver();
     }
 
     private void EndHurt()

@@ -10,6 +10,14 @@ public class PlayerAttribute : EntityAttribute
     public float attackDistence;
     public List<Buff> buffs = new List<Buff>();
     public GameObject bullet;
+    public int goldCoinNum;
+    private const int MaxHP = 32;
+
+    private void Update()
+    {
+        HP = Mathf.Min(HP, HPUpbound);
+        HPUpbound = Mathf.Min(HPUpbound, MaxHP);
+    }
 
     public void GainBuff(Buff buff)
     {

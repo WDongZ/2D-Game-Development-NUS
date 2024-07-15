@@ -1,0 +1,2063 @@
+fileFormatVersion: 2
+guid: fedbbd7157d79e7469546d3ef78d2541
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Decorative_fire_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 832
+        width: 191
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff54ba455a86b842b027a18cf60e607
+      internalID: 1078367749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 928
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446a9207a64500340a3913a3e5508e72
+      internalID: -599568976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 896
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2913bdf1b440e5b449d863bc8f5121b3
+      internalID: 1829528605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 896
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bac2f3e7d029994e9ba4b00f46f9d32
+      internalID: 1553512822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 896
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c88c4e5dfa77941abf62f67a71133f
+      internalID: -496663757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 896
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86292d29c440cc4f83a03efbfff70c3
+      internalID: 1713756091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 782
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b6318c26f0d243a6d9a3c942c13b0
+      internalID: 1525359622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 842
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ebe73490222047b28be5848f8d8e7
+      internalID: -582907728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 832
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1237e519af02541987e2c9842ed61a
+      internalID: 2017410304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 768
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca63dce3bcc7d5469bc18510ae3d1d3
+      internalID: 520554638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 768
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686645154a94c30408797120a12bbef8
+      internalID: -960691360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 768
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ea94d4faa03a648a2a2b9a1a7bef9f
+      internalID: 2061805360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 545
+        width: 191
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082743bb467580f47b4764f0fd2f5827
+      internalID: 526314648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 641
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b16d845a6999343994d51665596fc3
+      internalID: 744208754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 609
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bf767448e495f47beb8a303a765d1d
+      internalID: 1992587639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 609
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ece82c37bb98824098997c75af1a40e
+      internalID: -1025522828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_16
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 609
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baedbe16a5fb464a96b2ff1c22fbb18
+      internalID: 363003864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 609
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1369b14fbd024fad0ca4df24a2ec1
+      internalID: -558638112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_18
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 526
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405a39cd3c4d66949a1da65cc1bf3369
+      internalID: -259855066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_19
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 586
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a79b1f784f0b446b5345f3216d252a
+      internalID: 108985963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 545
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d49ce5a501b6434982e0a979aa4df65
+      internalID: -547401516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 481
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ceac44f1d8add4ea49601b07d79b6c
+      internalID: -95106125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_22
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 481
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac589410b5dac624185cc7c0b5ace88a
+      internalID: -1671862481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_23
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 481
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf24d3d0ab5b94442a3f9752ae0c8c22
+      internalID: -792939962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_24
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 452
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992cb75f6a5b8b44c8cee55e2ad51c0e
+      internalID: 1283110957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 454
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c488e7fa0eed24e8321cbec12d885a
+      internalID: -2006439066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 449
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d926c45ee1d2a141b11fcf96b0cd3f0
+      internalID: -522561518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_27
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 449
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05d03398c145db4eb83c56016dddc03
+      internalID: 838232787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_28
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 452
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c109a4ee7705374c8a9168a5faffd50
+      internalID: -1664394025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 330
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0d9798058e82340891896a5822860e
+      internalID: -1343308865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 270
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56b65b2314e5344cb8b569a424e0e08
+      internalID: -1145606110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 290
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e894a81dc6a9a34b8e515b088614cd4
+      internalID: 2053119097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 291
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500a7a004bb82b74899d6c666d0289cb
+      internalID: -569126525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 426
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c35c0dccc1fd418d9d9173cf5aa56
+      internalID: 1532127530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_34
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 422
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966a4da7b1cecba4686b4e5c04b1cb35
+      internalID: -1420781968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 420
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a68adc58796e4ca7cfb9ad480cde7
+      internalID: 312128913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_36
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 427
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0295df5f84320f488624fa5ca65417e
+      internalID: -485636897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 426
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6e283fecb288c46ac7dd3f1412d16e
+      internalID: 2126826311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_38
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 428
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa1896990ffb8f4e827aa8479175a02
+      internalID: -401861525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 288
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46b4f85cb9a217478f9464c0b9f54af
+      internalID: -2095758159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 394
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f750d814d554c45ab47ab9502ab61c
+      internalID: 1230129706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_41
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 385
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5367605f4ccda04458ef8a80f3f9a825
+      internalID: 1390286811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_42
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 385
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc99d8e8e6c93a4e814e4fc10b63c3e
+      internalID: -1243552226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_43
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 388
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529635ec083ec0345ab78acb0bdf78ed
+      internalID: 1671727128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_44
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 290
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83f4add6e434f6449ed733f5e530e64
+      internalID: -1322373659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_45
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 291
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b983afa35537d44fa7a0b7ab9fd4f97
+      internalID: 180493382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 363
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df708ed09b85b5c4497c3fa480526f83
+      internalID: -1763944852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_47
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 362
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb55a4492a4f3e459e29f46b2d0fa05
+      internalID: -1835002713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_48
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 364
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59056200a10d566488403a6d488b99f8
+      internalID: -865730081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 290
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72e0d80d5c263e40861d15391d4ba5e
+      internalID: 2101493575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_50
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 321
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18330dbdd4efa274aa9807b72a2c7bd1
+      internalID: 1121709376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_51
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 321
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dde9522298b7445acfc909787be5cc
+      internalID: 459517351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_52
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 324
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020eb504b2191684797319c85207c3f5
+      internalID: 1718482205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_53
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 299
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41a886bb2fee3442a5063ff83b3dc7b
+      internalID: 1423134771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_54
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 298
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef1c626c6449e48a47787cdbeb84ef
+      internalID: 1210856470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_55
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 300
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e16f5c383a5c54abcebcc5a89de227
+      internalID: -405934546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42506b0225980e4c8c30f9d0668498b
+      internalID: 901672860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 131
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b088d8a63dac740b99334ec52a2659
+      internalID: -160963844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_58
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 260
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ac743f5ee602a4aa9193c515f26f34
+      internalID: -489017435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_59
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 257
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8dec00cb790f04abe918925d9b0f06
+      internalID: -109146145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_60
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 257
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774ffe82c7dc4654ca34deb96240543e
+      internalID: -1419128355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_61
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 128
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dada4d5eec2a74a9b12f4edda65494
+      internalID: 1690573174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_62
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 236
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1424dce05de23c94cb66a9a3fc62b110
+      internalID: -1081055877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_63
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8571d6a0dbb7fb438e1b12e5aabee24
+      internalID: -1135432852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_64
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 235
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abaf1abdd5ff8645a49dae9884cb29f
+      internalID: -2082951655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_65
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 14
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c415afe56fe064478077e669e38cd4d
+      internalID: 1947968066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_66
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07622607c9b90534ea102ef63d5fd0bc
+      internalID: -1755375943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_67
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 130
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0087390045778b545acc8443bff3ea2a
+      internalID: -1906897386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 131
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94acdba8fd5d924da8a9c4f99173e82
+      internalID: -217549895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_69
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 196
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9451967702a5e6a49943c3dec450081a
+      internalID: 584502564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_70
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 193
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f625744e796a14f9be73e47e28437f
+      internalID: 1639244694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_71
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 193
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd88a7628d582b4d910ae2e557b10e1
+      internalID: -1636866102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_72
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 74
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876abd7d6f568aa45a3b4f201aa26cee
+      internalID: -1473331146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_73
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 172
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525d1408c04bdd941b6a6947758f7d46
+      internalID: 2106591759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_74
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 170
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521ae154feafcb41850aacff92af446
+      internalID: 2118229759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_75
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 171
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b039ff15998b0242b38e4478c0a1158
+      internalID: -1273098502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_76
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 132
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c75166416b58864e8abcf8578850a94
+      internalID: -475688262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_77
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 129
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958eb75abd402ec4cb9cbe9355d8fca3
+      internalID: 839777255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_78
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 129
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db02d2231b44904f9da7a939ae3fd5d
+      internalID: 1427818482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_79
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3233555b8f9d3e4d91e99bdb0d8c505
+      internalID: -155818450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_80
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f99633811a059848843f3490496ff93
+      internalID: 963939489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_81
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 108
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b07b151a09eab4ea8104421a9c9d33
+      internalID: -1830918273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_82
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 106
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7179ea239550a2e47994d92ea5fe90ea
+      internalID: -953616669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 107
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c389cadd6949c64fbaef74d2f58f8e2
+      internalID: -542580140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa236925bc1f0ae438156dc0516f167e
+      internalID: -1121760693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6ec81a13d12bd42a152baf5e0574f3
+      internalID: -1167803111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_86
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb110fcb86ce82b4ca863a517291d3dc
+      internalID: -919616388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_fire_87
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4d4f8043ef3334fae13054f205056c
+      internalID: -1409536036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Decorative_fire_0: 1078367749
+      Decorative_fire_1: -599568976
+      Decorative_fire_10: -960691360
+      Decorative_fire_11: 2061805360
+      Decorative_fire_12: 526314648
+      Decorative_fire_13: 744208754
+      Decorative_fire_14: 1992587639
+      Decorative_fire_15: -1025522828
+      Decorative_fire_16: 363003864
+      Decorative_fire_17: -558638112
+      Decorative_fire_18: -259855066
+      Decorative_fire_19: 108985963
+      Decorative_fire_2: 1829528605
+      Decorative_fire_20: -547401516
+      Decorative_fire_21: -95106125
+      Decorative_fire_22: -1671862481
+      Decorative_fire_23: -792939962
+      Decorative_fire_24: 1283110957
+      Decorative_fire_25: -2006439066
+      Decorative_fire_26: -522561518
+      Decorative_fire_27: 838232787
+      Decorative_fire_28: -1664394025
+      Decorative_fire_29: -1343308865
+      Decorative_fire_3: 1553512822
+      Decorative_fire_30: -1145606110
+      Decorative_fire_31: 2053119097
+      Decorative_fire_32: -569126525
+      Decorative_fire_33: 1532127530
+      Decorative_fire_34: -1420781968
+      Decorative_fire_35: 312128913
+      Decorative_fire_36: -485636897
+      Decorative_fire_37: 2126826311
+      Decorative_fire_38: -401861525
+      Decorative_fire_39: -2095758159
+      Decorative_fire_4: -496663757
+      Decorative_fire_40: 1230129706
+      Decorative_fire_41: 1390286811
+      Decorative_fire_42: -1243552226
+      Decorative_fire_43: 1671727128
+      Decorative_fire_44: -1322373659
+      Decorative_fire_45: 180493382
+      Decorative_fire_46: -1763944852
+      Decorative_fire_47: -1835002713
+      Decorative_fire_48: -865730081
+      Decorative_fire_49: 2101493575
+      Decorative_fire_5: 1713756091
+      Decorative_fire_50: 1121709376
+      Decorative_fire_51: 459517351
+      Decorative_fire_52: 1718482205
+      Decorative_fire_53: 1423134771
+      Decorative_fire_54: 1210856470
+      Decorative_fire_55: -405934546
+      Decorative_fire_56: 901672860
+      Decorative_fire_57: -160963844
+      Decorative_fire_58: -489017435
+      Decorative_fire_59: -109146145
+      Decorative_fire_6: 1525359622
+      Decorative_fire_60: -1419128355
+      Decorative_fire_61: 1690573174
+      Decorative_fire_62: -1081055877
+      Decorative_fire_63: -1135432852
+      Decorative_fire_64: -2082951655
+      Decorative_fire_65: 1947968066
+      Decorative_fire_66: -1755375943
+      Decorative_fire_67: -1906897386
+      Decorative_fire_68: -217549895
+      Decorative_fire_69: 584502564
+      Decorative_fire_7: -582907728
+      Decorative_fire_70: 1639244694
+      Decorative_fire_71: -1636866102
+      Decorative_fire_72: -1473331146
+      Decorative_fire_73: 2106591759
+      Decorative_fire_74: 2118229759
+      Decorative_fire_75: -1273098502
+      Decorative_fire_76: -475688262
+      Decorative_fire_77: 839777255
+      Decorative_fire_78: 1427818482
+      Decorative_fire_79: -155818450
+      Decorative_fire_8: 2017410304
+      Decorative_fire_80: 963939489
+      Decorative_fire_81: -1830918273
+      Decorative_fire_82: -953616669
+      Decorative_fire_83: -542580140
+      Decorative_fire_84: -1121760693
+      Decorative_fire_85: -1167803111
+      Decorative_fire_86: -919616388
+      Decorative_fire_87: -1409536036
+      Decorative_fire_9: 520554638
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

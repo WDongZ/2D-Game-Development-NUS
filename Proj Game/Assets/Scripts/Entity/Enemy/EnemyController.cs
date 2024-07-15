@@ -4,9 +4,8 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : EntityAttribute
 {
-    public float hp = 100;
     protected bool isHurt = false;
     [SerializeField] protected Animator anim;
     protected bool isDead;
@@ -15,11 +14,15 @@ public class EnemyController : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+        if (anim == null)
+        {
+            anim = GetComponentInChildren<Animator>();
+        }
     }
 
     void Update()
     {
-        if(hp <= 0)
+        if(HP <= 0)
         {
             isDead = true;
             GetComponent<Collider2D>().enabled = false;
@@ -33,9 +36,12 @@ public class EnemyController : MonoBehaviour
 
     public void GetHurt(GameObject attacker)
     {
-        anim.Play("Enemy_Idel");
-        isHurt = true;
-        hp -= attacker.GetComponent<Bullet>().damage;
+        if (hurtFactor > 0)
+        {
+            anim.Play("Enemy_Idel");
+            isHurt = true;
+            HP -= attacker.GetComponent<Bullet>().damage * hurtFactor;
+        }
     }
 
     public void EndHurt()

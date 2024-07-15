@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : Attacker
@@ -10,6 +11,7 @@ public class Bullet : Attacker
     public float speed;
     public bool isHit = false;
     public Animator anim;
+    public Status status;
 
 
     private void Awake()
@@ -33,12 +35,13 @@ public class Bullet : Attacker
         Debug.Log(collision);
         if (tag == "Player")
         {
-            if (collision.gameObject.tag == "Enemy")
+            if (collision.gameObject.tag == "Enemy" && collision.GetComponent<EntityAttribute>().hurtFactor != 0)
             {
-                collision.GetComponent<EnemyController>().GetHurt(this.gameObject);
-                //collision.GetComponent<>().Status
+                collision.GetComponent<EnemyController>()?.GetHurt(this.gameObject);
+                if (status != null) { status.setStatus(collision.gameObject); }
                 isHit = true;
                 GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                GetComponent<Collider2D>().enabled = false;
                 Debug.Log("Enemy hit!");
             }
         }
@@ -49,6 +52,40 @@ public class Bullet : Attacker
                 collision.GetComponent<PlayerController>().GetHurt(this.gameObject);
                 isHit = true;
                 GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                GetComponent<Collider2D>().enabled = false;
+            }
+        }
+        if (collision.gameObject.name == "Tilemap")
+        {
+            isHit = true;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        }
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        Debug.Log(collision);
+        if (tag == "Player")
+        {
+            if (collision.gameObject.tag == "Enemy")
+            {
+                collision.GetComponent<EnemyController>().GetHurt(this.gameObject);
+                //collision.GetComponent<>().Status
+                isHit = true;
+                GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                GetComponent<Collider2D>().enabled = false;
+                Debug.Log("Enemy hit!");
+            }
+        }
+        else if (tag == "Enemy")
+        {
+            if (collision.gameObject.tag == "Player")
+            {
+                collision.GetComponent<PlayerController>().GetHurt(this.gameObject);
+                isHit = true;
+                GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                GetComponent<Collider2D>().enabled = false;
             }
         }
         if (collision.gameObject.name == "Tilemap")

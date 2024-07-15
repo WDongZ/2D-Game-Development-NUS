@@ -26,7 +26,7 @@ public class EnemyCloseAttack : Attacker
 
     void Start()
     {
-        HP = GetComponent<EnemyController>().hp;
+        HP = GetComponent<EnemyController>().HP;
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
     }

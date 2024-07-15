@@ -4,32 +4,30 @@ using UnityEngine;
 
 public abstract class Status : MonoBehaviour
 {
-    private GameObject iObject;
-    private float lastingTime;
-    private float timer = 0;
-    private bool statusLasting = false;
-    private void Awake()
+    public GameObject iObject;
+    public float lastingTime;
+    public float timer = 0;
+    public bool statusLasting = false;
+    public GameObject statusEffect;
+
+    public void setStatus(GameObject iObject)
     {
+        this.iObject = iObject;
         GetStatus(iObject);
         statusLasting = true;
         timer = 0;
     }
+
     private void Update()
     {
         timer += Time.deltaTime;
-        if (statusLasting && timer > lastingTime) Destroy(gameObject);
+        if (statusLasting && timer > lastingTime)
+        {
+            Debug.Log("Loss sssssss");
+            Destroy(gameObject);
+        }
     }
-    public Status (GameObject iObject, float lastingTime)
-    {
-        this.iObject = iObject;
-        this.lastingTime = lastingTime;
-    }
-    public void GetStatus(GameObject iObject) { }
 
-    public void LossStatus(GameObject iObject) { }
+    public abstract void GetStatus(GameObject iObject);
 
-    private void OnDestroy()
-    {
-        LossStatus(iObject);
-    }
 }

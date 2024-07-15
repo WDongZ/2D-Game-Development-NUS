@@ -41,13 +41,9 @@ public class DoorController : MonoBehaviour
         {
             OpenDoor();
         }
+        GetComponent<Animator>().SetBool("isOpen", isOpen);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-            transform.parent.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
-    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {

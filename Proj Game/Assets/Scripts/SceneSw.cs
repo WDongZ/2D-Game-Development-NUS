@@ -21,5 +21,10 @@ public class SceneSw : MonoBehaviour
    
         SceneManager.LoadScene(sceneName);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
 

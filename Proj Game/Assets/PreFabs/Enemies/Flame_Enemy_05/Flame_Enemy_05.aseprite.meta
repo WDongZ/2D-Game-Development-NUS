@@ -1,0 +1,1483 @@
+fileFormatVersion: 2
+guid: 9ce6115272936bc41894cc8670aacba3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Flame_Enemy_05_Frame_0
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 344
+      y: 82
+      width: 44
+      height: 31
+    spriteID: b6102c085d8435744a4def03c0698a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 344, y: 82}
+  - name: Flame_Enemy_05_Frame_1
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 396
+      y: 82
+      width: 44
+      height: 31
+    spriteID: 081baefc7348cf942866ceb56fde85e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 396, y: 82}
+  - name: Flame_Enemy_05_Frame_2
+    originalName: 
+    pivot: {x: 0.9555557, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 82
+      width: 45
+      height: 31
+    spriteID: ceb6f8b7345a5404594b0296b831d5da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 82}
+  - name: Flame_Enemy_05_Frame_3
+    originalName: 
+    pivot: {x: 0.9555557, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 82
+      width: 45
+      height: 31
+    spriteID: 76dd554248451b2468fcdb69661889ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 82}
+  - name: Flame_Enemy_05_Frame_4
+    originalName: 
+    pivot: {x: 0.9555557, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 291
+      y: 82
+      width: 45
+      height: 31
+    spriteID: 1fb381c7c245eb84c8923542d444a5ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 291, y: 82}
+  - name: Flame_Enemy_05_Frame_5
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 82
+      width: 44
+      height: 31
+    spriteID: 0eac6a7be59a6d74e83c88eec085dad3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 82}
+  - name: Flame_Enemy_05_Frame_6
+    originalName: 
+    pivot: {x: 1.0000001, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 199
+      width: 43
+      height: 31
+    spriteID: 0e4b0b9e41e55734396fcb784f18e760
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 199}
+  - name: Flame_Enemy_05_Frame_7
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 44
+      height: 31
+    spriteID: 40c7c61ff01dfd84785c981ff62c335e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: Flame_Enemy_05_Frame_8
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 121
+      width: 44
+      height: 31
+    spriteID: f2f52d0c1309f184bbc3fa99c148b0b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 121}
+  - name: Flame_Enemy_05_Frame_9
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 121
+      width: 44
+      height: 31
+    spriteID: 9ac0a694d39791443a4eef954f73f8b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 121}
+  - name: Flame_Enemy_05_Frame_10
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 121
+      width: 44
+      height: 31
+    spriteID: b89830bea33dd3d47ab0733681029c26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 121}
+  - name: Flame_Enemy_05_Frame_11
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 121
+      width: 44
+      height: 31
+    spriteID: d511c9c6feca89a4c80b91a234a94895
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 121}
+  - name: Flame_Enemy_05_Frame_12
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 264
+      y: 121
+      width: 44
+      height: 31
+    spriteID: 5c5149d02822b0d49b50ebaac7598e92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 264, y: 121}
+  - name: Flame_Enemy_05_Frame_13
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 121
+      width: 44
+      height: 31
+    spriteID: 59af3b8c2cddace45a609ed9cd3b829e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 121}
+  - name: Flame_Enemy_05_Frame_14
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 121
+      width: 44
+      height: 31
+    spriteID: fd5d9fbec20b9dd4aa21d2827e0d8b8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 121}
+  - name: Flame_Enemy_05_Frame_15
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 121
+      width: 44
+      height: 31
+    spriteID: 390947dda4bf47b489d89eda5dc328fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 121}
+  - name: Flame_Enemy_05_Frame_16
+    originalName: 
+    pivot: {x: 0.8431373, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 82
+      width: 51
+      height: 31
+    spriteID: 40fac7075a0aee2498bb75a82446698a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 82}
+  - name: Flame_Enemy_05_Frame_17
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 362
+      y: 4
+      width: 62
+      height: 31
+    spriteID: ae95e8baea7da6d4586cf7a123695f7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 362, y: 4}
+  - name: Flame_Enemy_05_Frame_18
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 4
+      width: 62
+      height: 31
+    spriteID: aa549f74541f3d44eb2c816af556fca3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 432, y: 4}
+  - name: Flame_Enemy_05_Frame_19
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 62
+      height: 31
+    spriteID: 4ba8018c96a962f4684bd4f00e5b03e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Flame_Enemy_05_Frame_20
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 43
+      width: 62
+      height: 31
+    spriteID: 2243d55ef8107d94fb6f286442b84e2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 43}
+  - name: Flame_Enemy_05_Frame_21
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 43
+      width: 62
+      height: 31
+    spriteID: 152da92f058d71b4497b6adf34009585
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 43}
+  - name: Flame_Enemy_05_Frame_22
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 43
+      width: 62
+      height: 31
+    spriteID: 1fd00f39386524d43a5855a3b5bc9bd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 43}
+  - name: Flame_Enemy_05_Frame_23
+    originalName: 
+    pivot: {x: 0.8431373, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 82
+      width: 51
+      height: 31
+    spriteID: e16390cdf6a77274ebebe12812d4303a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 82}
+  - name: Flame_Enemy_05_Frame_24
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 434f2271b64d3754891c98448853d20c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: Flame_Enemy_05_Frame_25
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 160
+      width: 44
+      height: 31
+    spriteID: e0c317dae95c24a4d88f1e391fecdf8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 160}
+  - name: Flame_Enemy_05_Frame_26
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 160
+      width: 44
+      height: 31
+    spriteID: cd2ba19c105495f40a6e90f4aab8025a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 160}
+  - name: Flame_Enemy_05_Frame_27
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 8c6128fa2f89a6644a89935dc049fef9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 160}
+  - name: Flame_Enemy_05_Frame_28
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 0e74fc9ce33e11a4fb62e60ab33fdbe9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 160}
+  - name: Flame_Enemy_05_Frame_29
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 264
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 0da7860dc31f33945882e89c7e9b63f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 264, y: 160}
+  - name: Flame_Enemy_05_Frame_30
+    originalName: 
+    pivot: {x: 0.7818182, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 55
+      height: 31
+    spriteID: ab3c85f0ef96f1f4586b7d85454aa3c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Flame_Enemy_05_Frame_31
+    originalName: 
+    pivot: {x: 0.7288136, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 354
+      y: 43
+      width: 59
+      height: 31
+    spriteID: 5206d0bd690caa1449f62bfdf49cba10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 354, y: 43}
+  - name: Flame_Enemy_05_Frame_32
+    originalName: 
+    pivot: {x: 0.7288136, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 43
+      width: 59
+      height: 31
+    spriteID: e493d96e9ef55fd4093f54f8fc2a168e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 43}
+  - name: Flame_Enemy_05_Frame_33
+    originalName: 
+    pivot: {x: 0.6935484, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 43
+      width: 62
+      height: 31
+    spriteID: 40ce40c7d3ccca443830730d982d6787
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 284, y: 43}
+  - name: Flame_Enemy_05_Frame_34
+    originalName: 
+    pivot: {x: 0.5897436, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 4
+      width: 78
+      height: 31
+    spriteID: eada2a0003e00eb49bd611ee0f016468
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 4}
+  - name: Flame_Enemy_05_Frame_35
+    originalName: 
+    pivot: {x: 0.632353, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 286
+      y: 4
+      width: 68
+      height: 31
+    spriteID: 13bb8623715442348ba1465e7c40e346
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 286, y: 4}
+  - name: Flame_Enemy_05_Frame_36
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 6057493b16cba36429cd9429f7832b83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 160}
+  - name: Flame_Enemy_05_Frame_37
+    originalName: 
+    pivot: {x: 0.58888894, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 90
+      height: 31
+    spriteID: dabc4db53f6d1c948b2e44ec28df0459
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Flame_Enemy_05_Frame_38
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 1c028085cbef3804d9ee9ae04095b500
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 368, y: 160}
+  - name: Flame_Enemy_05_Frame_39
+    originalName: 
+    pivot: {x: 0.58888894, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 4
+      width: 90
+      height: 31
+    spriteID: b3e19341c6979794db8b5f634339c669
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 4}
+  - name: Flame_Enemy_05_Frame_40
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 420
+      y: 160
+      width: 44
+      height: 31
+    spriteID: 00716590ea4c12e408a077a904e70623
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 420, y: 160}
+  - name: Flame_Enemy_05_Frame_41
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 199
+      width: 44
+      height: 31
+    spriteID: b2ddd483defc90e4ba24c988467dc39b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 199}
+  - name: Flame_Enemy_05_Frame_42
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 199
+      width: 44
+      height: 31
+    spriteID: d8069c483f3ef3f4091fecab5b836b9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 199}
+  - name: Flame_Enemy_05_Frame_43
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 199
+      width: 44
+      height: 31
+    spriteID: ec1ba74c619e11a45842e29c8d552e2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 199}
+  - name: Flame_Enemy_05_Frame_44
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 199
+      width: 44
+      height: 31
+    spriteID: 17fb18dac96ef564ab1bfc4802477593
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 199}
+  - name: Flame_Enemy_05_Frame_45
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 199
+      width: 44
+      height: 31
+    spriteID: c104827cfb93f0748abbec49fdaeb578
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 199}
+  - name: Flame_Enemy_05_Frame_46
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 264
+      y: 199
+      width: 44
+      height: 31
+    spriteID: 366a67e128e222b4cba01f8d1984c627
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 264, y: 199}
+  - name: Flame_Enemy_05_Frame_47
+    originalName: 
+    pivot: {x: 0.9772728, y: -1.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 199
+      width: 44
+      height: 31
+    spriteID: afb77a80111030d489d3051521bab0bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 199}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1794688664
+    name: Flame_Enemy_05
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Flame_Enemy_05_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: b6102c085d8435744a4def03c0698a6e
+    - name: Flame_Enemy_05_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 081baefc7348cf942866ceb56fde85e2
+    - name: Flame_Enemy_05_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 53
+        y: 54
+        width: 45
+        height: 31
+      spriteId: ceb6f8b7345a5404594b0296b831d5da
+    - name: Flame_Enemy_05_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 53
+        y: 54
+        width: 45
+        height: 31
+      spriteId: 76dd554248451b2468fcdb69661889ad
+    - name: Flame_Enemy_05_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 53
+        y: 54
+        width: 45
+        height: 31
+      spriteId: 1fb381c7c245eb84c8923542d444a5ab
+    - name: Flame_Enemy_05_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 0eac6a7be59a6d74e83c88eec085dad3
+    - name: Flame_Enemy_05_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 53
+        y: 54
+        width: 43
+        height: 31
+      spriteId: 0e4b0b9e41e55734396fcb784f18e760
+    - name: Flame_Enemy_05_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 40c7c61ff01dfd84785c981ff62c335e
+    - name: Flame_Enemy_05_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: f2f52d0c1309f184bbc3fa99c148b0b4
+    - name: Flame_Enemy_05_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 9ac0a694d39791443a4eef954f73f8b3
+    - name: Flame_Enemy_05_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: b89830bea33dd3d47ab0733681029c26
+    - name: Flame_Enemy_05_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: d511c9c6feca89a4c80b91a234a94895
+    - name: Flame_Enemy_05_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 5c5149d02822b0d49b50ebaac7598e92
+    - name: Flame_Enemy_05_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 59af3b8c2cddace45a609ed9cd3b829e
+    - name: Flame_Enemy_05_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: fd5d9fbec20b9dd4aa21d2827e0d8b8b
+    - name: Flame_Enemy_05_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 390947dda4bf47b489d89eda5dc328fa
+    - name: Flame_Enemy_05_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 53
+        y: 54
+        width: 51
+        height: 31
+      spriteId: 40fac7075a0aee2498bb75a82446698a
+    - name: Flame_Enemy_05_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: ae95e8baea7da6d4586cf7a123695f7f
+    - name: Flame_Enemy_05_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: aa549f74541f3d44eb2c816af556fca3
+    - name: Flame_Enemy_05_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: 4ba8018c96a962f4684bd4f00e5b03e9
+    - name: Flame_Enemy_05_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: 2243d55ef8107d94fb6f286442b84e2d
+    - name: Flame_Enemy_05_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: 152da92f058d71b4497b6adf34009585
+    - name: Flame_Enemy_05_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: 1fd00f39386524d43a5855a3b5bc9bd8
+    - name: Flame_Enemy_05_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 53
+        y: 54
+        width: 51
+        height: 31
+      spriteId: e16390cdf6a77274ebebe12812d4303a
+    - name: Flame_Enemy_05_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 434f2271b64d3754891c98448853d20c
+    - name: Flame_Enemy_05_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: e0c317dae95c24a4d88f1e391fecdf8a
+    - name: Flame_Enemy_05_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: cd2ba19c105495f40a6e90f4aab8025a
+    - name: Flame_Enemy_05_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 8c6128fa2f89a6644a89935dc049fef9
+    - name: Flame_Enemy_05_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 0e74fc9ce33e11a4fb62e60ab33fdbe9
+    - name: Flame_Enemy_05_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 0da7860dc31f33945882e89c7e9b63f9
+    - name: Flame_Enemy_05_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 53
+        y: 54
+        width: 55
+        height: 31
+      spriteId: ab3c85f0ef96f1f4586b7d85454aa3c0
+    - name: Flame_Enemy_05_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 53
+        y: 54
+        width: 59
+        height: 31
+      spriteId: 5206d0bd690caa1449f62bfdf49cba10
+    - name: Flame_Enemy_05_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 53
+        y: 54
+        width: 59
+        height: 31
+      spriteId: e493d96e9ef55fd4093f54f8fc2a168e
+    - name: Flame_Enemy_05_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 53
+        y: 54
+        width: 62
+        height: 31
+      spriteId: 40ce40c7d3ccca443830730d982d6787
+    - name: Flame_Enemy_05_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 50
+        y: 54
+        width: 78
+        height: 31
+      spriteId: eada2a0003e00eb49bd611ee0f016468
+    - name: Flame_Enemy_05_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 53
+        y: 54
+        width: 68
+        height: 31
+      spriteId: 13bb8623715442348ba1465e7c40e346
+    - name: Flame_Enemy_05_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 6057493b16cba36429cd9429f7832b83
+    - name: Flame_Enemy_05_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 43
+        y: 54
+        width: 90
+        height: 31
+      spriteId: dabc4db53f6d1c948b2e44ec28df0459
+    - name: Flame_Enemy_05_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 1c028085cbef3804d9ee9ae04095b500
+    - name: Flame_Enemy_05_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 43
+        y: 54
+        width: 90
+        height: 31
+      spriteId: b3e19341c6979794db8b5f634339c669
+    - name: Flame_Enemy_05_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 00716590ea4c12e408a077a904e70623
+    - name: Flame_Enemy_05_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: b2ddd483defc90e4ba24c988467dc39b
+    - name: Flame_Enemy_05_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: d8069c483f3ef3f4091fecab5b836b9d
+    - name: Flame_Enemy_05_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: ec1ba74c619e11a45842e29c8d552e2e
+    - name: Flame_Enemy_05_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 17fb18dac96ef564ab1bfc4802477593
+    - name: Flame_Enemy_05_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: c104827cfb93f0748abbec49fdaeb578
+    - name: Flame_Enemy_05_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: 366a67e128e222b4cba01f8d1984c627
+    - name: Flame_Enemy_05_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 53
+        y: 54
+        width: 44
+        height: 31
+      spriteId: afb77a80111030d489d3051521bab0bd
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

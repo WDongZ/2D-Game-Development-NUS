@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 6601048193380351988}
   - component: {fileID: 1717456334357303182}
   - component: {fileID: 4653173326900619077}
+  - component: {fileID: 1880872823346835830}
   m_Layer: 5
   m_Name: BossHealBar
   m_TagString: Untagged
@@ -180,6 +181,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1880872823346835830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2809203075306891974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21522a2225d91ab4e9726476c340b119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2854942146289935819
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +615,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

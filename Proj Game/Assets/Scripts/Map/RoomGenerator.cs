@@ -41,7 +41,6 @@ public class RoomGenerator : MonoBehaviour
             ChangePointPos();
         }
 
-        rooms[0].transform.Find("Mask").gameObject.SetActive(false);
 
         endRoom = rooms[0].gameObject;
         foreach (var room in rooms)
@@ -62,6 +61,10 @@ public class RoomGenerator : MonoBehaviour
         GameObject bossL = Instantiate(entityLayerType.BossLayer, endRoom.transform.position, Quaternion.identity);
         endRoom.GetComponent<Room>().entityLayerl = bossL;
         bossL.SetActive(false);
+
+        GameObject merchantL = Instantiate(entityLayerType.MerchantRoom, rooms[1].transform.position, Quaternion.identity);
+        rooms[1].GetComponent<Room>().entityLayerl = merchantL;
+        merchantL.SetActive(false);
     }
 
     // Update is called once per frame
@@ -153,7 +156,7 @@ public class RoomGenerator : MonoBehaviour
                 break;
         }
 
-        int randomEntityLayer = Random.Range(0, 5);
+        int randomEntityLayer = Random.Range(0, 15);
 
         switch (randomEntityLayer)
         {
@@ -181,6 +184,51 @@ public class RoomGenerator : MonoBehaviour
                 GameObject eL4 = Instantiate(entityLayerType.FlameEntityLayerL205, roomPosition, Quaternion.identity);
                 newRoom.entityLayerl = eL4;
                 entityLayers.Add(eL4);
+                break;
+            case 5:
+                GameObject eL5 = Instantiate(entityLayerType.FlameEntityLayerL206, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL5;
+                entityLayers.Add(eL5);
+                break;
+            case 6:
+                GameObject eL6 = Instantiate(entityLayerType.FlameEntityLayerL207, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL6;
+                entityLayers.Add(eL6);
+                break;
+            case 7:
+                GameObject eL7 = Instantiate(entityLayerType.FlameEntityLayerL208, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL7;
+                entityLayers.Add(eL7);
+                break;
+            case 8:
+                GameObject eL8 = Instantiate(entityLayerType.FlameEntityLayerL209, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL8;
+                entityLayers.Add(eL8);
+                break;
+            case 9:
+                GameObject eL9 = Instantiate(entityLayerType.FlameEntityLayerL210, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL9;
+                entityLayers.Add(eL9);
+                break;
+            case 10:
+                GameObject eL10 = Instantiate(entityLayerType.FlameEntityLayerL211, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL10;
+                entityLayers.Add(eL10);
+                break;
+            case 11:
+                GameObject eL11 = Instantiate(entityLayerType.FlameEntityLayerL212, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL11;
+                entityLayers.Add(eL11);
+                break;
+            case 12:
+                GameObject eL12 = Instantiate(entityLayerType.FlameEntityLayerL213, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL12;
+                entityLayers.Add(eL12);
+                break;
+            case 13:
+                GameObject eL13 = Instantiate(entityLayerType.FlameEntityLayerL214, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL13;
+                entityLayers.Add(eL13);
                 break;
         }
 
@@ -239,5 +287,7 @@ public class DecorateType
 [System.Serializable]
 public class EnyityLayerType
 {
-    public GameObject FlameEntityLayerL201, FlameEntityLayerL202, FlameEntityLayerL203, FlameEntityLayerL204, FlameEntityLayerL205, BossLayer;
+    public GameObject FlameEntityLayerL201, FlameEntityLayerL202, FlameEntityLayerL203, FlameEntityLayerL204, FlameEntityLayerL205, BossLayer,
+        FlameEntityLayerL206, FlameEntityLayerL207, FlameEntityLayerL208, FlameEntityLayerL209, FlameEntityLayerL210, FlameEntityLayerL211, 
+        FlameEntityLayerL212, FlameEntityLayerL213, FlameEntityLayerL214, MerchantRoom;
 }

@@ -5,8 +5,8 @@ using UnityEngine;
 public abstract class Buff : MonoBehaviour
 {
     protected GameObject player;
-    protected string buffName;
-    protected string buffDescription;
+    public string buffName;
+    public string buffDescription;
     public abstract void GetBuff(GameObject player);
     public Buff(string buffName, string buffDescription, GameObject player)
     {
