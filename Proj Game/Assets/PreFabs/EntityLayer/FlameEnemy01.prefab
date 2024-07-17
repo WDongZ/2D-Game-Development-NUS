@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1214211199851760896}
   - component: {fileID: 1225847874704934458}
   - component: {fileID: 3694809929908946043}
+  - component: {fileID: 4919057222417859570}
   m_Layer: 0
   m_Name: FlameEnemy01
   m_TagString: Enemy
@@ -132,11 +133,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ed6ddf75349d947bb4cc7acaa0e497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 10
+  HP: 8
   damage: 0
   hurtFactor: 1
   moveSpeed: 0
-  status: []
+  statusList: []
   anim: {fileID: 0}
 --- !u!212 &1225847874704934458
 SpriteRenderer:
@@ -177,7 +178,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1084689833
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d0506590de05e424da78daedcdd09a0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -206,4 +207,23 @@ MonoBehaviour:
   timeChasing: 0
   moveSpeed: 0.005
   hateDis: 0.01
+  attackinterval: 0
   bulletPrefab: {fileID: 8982252307934283585, guid: 709b6fa0410cfcd43a2835b825656fd4, type: 3}
+--- !u!114 &4919057222417859570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4834231534750176685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d510f8bf7341e409b3c77a37e07b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propList:
+  - {fileID: 4247758743660167288, guid: 329d5981dedf56e47b8288466269a13a, type: 3}
+  - {fileID: 6755489284281883093, guid: 8e9180bebfa954e45b894a3079f41cb8, type: 3}
+  rateList:
+  - 0.6
+  - 0.2

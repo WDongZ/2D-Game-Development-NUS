@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 5
+  speed: 8
   isHit: 0
   anim: {fileID: 0}
   status: {fileID: 0}

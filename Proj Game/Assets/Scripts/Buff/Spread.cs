@@ -6,8 +6,8 @@ public class Spread : Buff
 {
     void Awake()
     {
-        buffName = "漫天花雨";
-        buffDescription = "子弹数量增加";
+        buffName = "ShotGun";
+        buffDescription = "The power of the shotgun, the bullet spreads out";
     }
     public Spread(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
@@ -15,6 +15,6 @@ public class Spread : Buff
 
     override public void GetBuff(GameObject player)
     {
-        player.GetComponent<BulletControl>().SetBullet(6, 10f);
+        player.GetComponent<BulletControl>().SetBullet(3, 10f);
     }
 }

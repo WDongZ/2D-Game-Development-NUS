@@ -35,6 +35,11 @@ public class PlayerController : MonoBehaviour
     public Vector3 birthPos = Vector3.zero;
     private float attackTime;
 
+    private RawImage minimap;
+
+    public GameObject wave;
+
+    private float UltSpeed;
 
     void Start()
     {
@@ -43,7 +48,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         dashTime = -dashCoolTime;
-        
+        minimap = GameObject.Find("MiniMap").GetComponent<RawImage>();
     }
 
     void Update()
@@ -52,6 +57,7 @@ public class PlayerController : MonoBehaviour
         CheckInput();
         dashTime -= Time.deltaTime;
         attackTime -= Time.deltaTime;
+        UltSpeed -= Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.LeftShift) && dashTime < -dashCoolTime) dashTime = dashDuration;
         checkFlip();
         AnimatorControllers();
@@ -63,6 +69,7 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.zero;
             GetComponent<Collider2D>().enabled = false;
         }
+        GetComponent<BulletControl>().bulletPrefab = GetComponent<PlayerAttribute>().bullet;
     }
 
 
@@ -85,17 +92,23 @@ public class PlayerController : MonoBehaviour
             isAttacking = true;
         }
 
-        if (Input.GetKey(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            GameObject.Find("MiniMap").GetComponent<RawImage>().enabled = true;
-            rb.velocity = Vector2.zero;
-            miniMap.transform.position = new Vector3(miniMap.transform.position.x + xInput * mapSpeed * Time.deltaTime,
-                miniMap.transform.position.y + yInput * mapSpeed * Time.deltaTime,
-                miniMap.transform.position.z);
+            if (!minimap.enabled)
+            {
+                minimap.enabled = true;
+                miniMap.transform.position = new Vector3(transform.position.x, transform.position.y,-20);
+            } 
+            else
+            {
+                minimap.enabled = false;
+            }
         }
-        if (Input.GetKeyUp(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Space) && UltSpeed <= 0)
         {
-            GameObject.Find("MiniMap").GetComponent<RawImage>().enabled = false;
+            UltSpeed = 2f;
+            wave.GetComponent<Ult>().StartWave();
+            GetComponent<EntityAttribute>().HP -= 2;
         }
 
     }

@@ -1,12 +1,13 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossBehavior_01 : MonoBehaviour
 {
     private float chasingDuration = 2f;
     public GameObject laser;
     public GameObject APs;
-    public float laserRotateSpeed = 10f;
+    public float laserRotateSpeed = 3f;
     private Animator anim;
     private bool laserCasting;
     private bool APCasting;
@@ -42,12 +43,11 @@ public class BossBehavior_01 : MonoBehaviour
 
     void Update()
     {
-        if (GetComponent<EnemyController>().HP <= 0) { 
+        if (GetComponent<EnemyController>().HP <= 0) {
+            SceneManager.LoadScene("Ending");
             transform.GetChild(0).gameObject.SetActive(false);
             iLaser.GetComponent<LaserController>().StopLaser();
             Debug.Log(GameObject.Find("Canvas").GetComponent<UIController>());
-            GameObject.Find("Canvas").GetComponent<UIController>().GameWin();
-            winMenu.SetActive(true);
         }
         StateMachine(currentState);
         anim.SetBool("laserCasting", laserCasting);
@@ -92,7 +92,7 @@ public class BossBehavior_01 : MonoBehaviour
 
                 LaserCasting();
                 timeC = 0;
-                timeR = Random.Range(2f, 4f);
+                timeR = Random.Range(4f, 8f);
                 currentState = 2;
                 break;
             case 2:
@@ -202,8 +202,9 @@ public class BossBehavior_01 : MonoBehaviour
 
     private void OnDestroy()
     {
-        GameObject.Find("Canvas").GetComponent<UIController>().GameWin();
-        winMenu.SetActive(true);
+        //winMenu.SetActive(true);
+        //GameObject.Find("Canvas").GetComponent<UIController>().GameWin();
+        //SceneManager.LoadScene("Ending");
         iLaser.GetComponent<LaserController>().StopLaser();
     }
 

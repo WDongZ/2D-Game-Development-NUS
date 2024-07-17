@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5520145267735424041}
   - component: {fileID: 3356098363386128890}
   - component: {fileID: 5686365649744824658}
-  - component: {fileID: 4168690158513786888}
+  - component: {fileID: 2239922731852919082}
   m_Layer: 0
   m_Name: Obstacle_04
   m_TagString: Wall
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 264813
-  m_SortingLayer: 5
+  m_SortingLayerID: 291231083
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1167803111, guid: fedbbd7157d79e7469546d3ef78d2541, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -113,8 +113,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!60 &4168690158513786888
-PolygonCollider2D:
+--- !u!70 &2239922731852919082
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -145,42 +145,6 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28125, y: 1.21875}
-    newSize: {x: 1.28125, y: 1.21875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.59375, y: -0.265625}
-      - {x: 0.625, y: -0.15625}
-      - {x: 0.625, y: -0.078125}
-      - {x: 0.484375, y: 0.15625}
-      - {x: 0.625, y: 0.3125}
-      - {x: 0.625, y: 0.5}
-      - {x: 0.53125, y: 0.59375}
-      - {x: 0.359375, y: 0.5625}
-      - {x: 0.296875, y: 0.609375}
-      - {x: -0.03125, y: 0.609375}
-      - {x: -0.078125, y: 0.59375}
-      - {x: -0.40625, y: 0.21875}
-      - {x: -0.40625, y: 0.09375}
-      - {x: -0.625, y: -0.015625}
-      - {x: -0.625, y: -0.140625}
-      - {x: -0.515625, y: -0.203125}
-      - {x: -0.28125, y: -0.21875}
-      - {x: -0.484375, y: -0.328125}
-      - {x: -0.546875, y: -0.375}
-      - {x: -0.484375, y: -0.484375}
-      - {x: -0.171875, y: -0.5}
-      - {x: 0.03125, y: -0.53125}
-      - {x: 0.25, y: -0.609375}
-      - {x: 0.453125, y: -0.609375}
-      - {x: 0.5, y: -0.5625}
-      - {x: 0.453125, y: -0.296875}
-  m_UseDelaunayMesh: 0
+  m_Offset: {x: 0.09145975, y: -0.100761}
+  m_Size: {x: 0.57747364, y: 0.6642829}
+  m_Direction: 0

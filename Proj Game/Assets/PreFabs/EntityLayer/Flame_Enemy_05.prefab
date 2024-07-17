@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 8656044006258135127}
   - component: {fileID: 6409153917373109838}
   - component: {fileID: 2348985814154347147}
+  - component: {fileID: 6748037894594890884}
   m_Layer: 0
   m_Name: Flame_Enemy_05
   m_TagString: Enemy
@@ -324,8 +325,9 @@ MonoBehaviour:
   timmer: 0
   timer: 0
   timeChasing: 0
-  moveSpeed: 0.01
+  moveSpeed: 50
   hateDis: 0.1
+  attackinterval: 0
   BulletCount: 13
   spreadAngle: 30
   bulletPrefab: {fileID: 8982252307934283585, guid: 709b6fa0410cfcd43a2835b825656fd4, type: 3}
@@ -341,9 +343,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ed6ddf75349d947bb4cc7acaa0e497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 25
+  HP: 20
   damage: 1
   hurtFactor: 1
   moveSpeed: 0
   statusList: []
   anim: {fileID: 0}
+--- !u!114 &6748037894594890884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6099825572627709500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d510f8bf7341e409b3c77a37e07b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propList:
+  - {fileID: 4247758743660167288, guid: 329d5981dedf56e47b8288466269a13a, type: 3}
+  - {fileID: 6755489284281883093, guid: 8e9180bebfa954e45b894a3079f41cb8, type: 3}
+  rateList:
+  - 0.6
+  - 0.2

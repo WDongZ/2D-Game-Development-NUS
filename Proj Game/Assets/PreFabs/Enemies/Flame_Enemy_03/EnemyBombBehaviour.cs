@@ -11,6 +11,7 @@ public class EnemyBombBehaviour : MonoBehaviour
     [SerializeField] private float timeChasing = 0;
     [SerializeField] private float moveSpeed = 0.01f;
     [SerializeField] private float hateDis = 0.1f;
+    [SerializeField] private float attackinterval = 0;
     private GameObject player;
     public GameObject bombPrefab;
     void Start()
@@ -44,22 +45,30 @@ public class EnemyBombBehaviour : MonoBehaviour
                 }
                 break;
             case 1:
-                GetComponent<EnemyController>().StartAttack();
-                if(timer > 0.3)
+                if(attackinterval >1.5)
                 {
-                    Burst();
-                    GetComponent<EnemyController>().EndAttack();
-                    timer = 0;
-                    currentState = 2;
+                    GetComponent<EnemyController>().StartAttack();
+                    if (timer > 0.3)
+                    {
+                        Burst();
+                        GetComponent<EnemyController>().EndAttack();
+                        timer = 0;
+                        currentState = 2;
+                    }
+                    else
+                    {
+                        timer += Time.deltaTime;
+                    }
                 }
                 else
                 {
-                    timer += Time.deltaTime;
+                    attackinterval += Time.deltaTime;
                 }
                 break;
             case 2:
                 GetComponent<EnemyController>().StartMove();
                 GetComponent<EnemyController>().EndAttack();
+                attackinterval = 0;
                 timeChasing += Time.deltaTime;
                 MoveTowardPlayer(GameObject.Find("Player").transform.position);
                 if (Vector2.Distance(player.transform.position, transform.position) < hateDis || timeChasing > 1) {

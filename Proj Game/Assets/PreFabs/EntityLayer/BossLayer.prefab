@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2377794804448229603}
+  - component: {fileID: 6233404605209562200}
   m_Layer: 0
   m_Name: BossLayer
   m_TagString: Untagged
@@ -33,6 +34,20 @@ Transform:
   - {fileID: 8858068782332091000}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6233404605209562200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039144030457579893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e5d0e7bf5c59149b566f965eed9d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: []
+  Faz: {fileID: 17262605637756464, guid: 64e1bbed696567146b27f165aa00f9c9, type: 3}
 --- !u!1001 &1444902392155512401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -156,6 +171,10 @@ PrefabInstance:
       propertyPath: winMenu
       value: 
       objectReference: {fileID: 2699502191531361786}
+    - target: {fileID: 1259639484793864629, guid: b85af071c0b7b484c96cbb22c62111aa, type: 3}
+      propertyPath: laserRotateSpeed
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 7910677117224602154, guid: b85af071c0b7b484c96cbb22c62111aa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1616707

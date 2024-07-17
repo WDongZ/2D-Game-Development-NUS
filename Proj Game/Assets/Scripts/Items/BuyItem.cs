@@ -13,6 +13,8 @@ public abstract class BuyItem : MonoBehaviour
 
     public GameObject FButton;
 
+    public GameObject intro;
+
     public int itemPrice;
 
     [SerializeField] private TMP_Text priceText;
@@ -22,6 +24,7 @@ public abstract class BuyItem : MonoBehaviour
         playerGameObject = GameObject.Find("Player");
         player = playerGameObject.GetComponent<PlayerController>();
         FButton.SetActive(false);
+        intro.SetActive(false);
     }
 
     void Update()
@@ -44,6 +47,7 @@ public abstract class BuyItem : MonoBehaviour
         {
             InRange = true;
             FButton.SetActive(true);
+            intro.SetActive(true);
         }
     }
 
@@ -53,6 +57,7 @@ public abstract class BuyItem : MonoBehaviour
         {
             InRange = true;
             FButton.SetActive(true);
+            intro.SetActive(true);
         }
     }
 
@@ -62,6 +67,7 @@ public abstract class BuyItem : MonoBehaviour
         {
             InRange = false;
             FButton.SetActive(false);
+            intro.SetActive(false);
         }
     }
 

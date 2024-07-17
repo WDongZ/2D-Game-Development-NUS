@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 9190411134922114013}
   - component: {fileID: 1536057723428580887}
   - component: {fileID: 5181152760712186102}
+  - component: {fileID: 6803837547581058027}
   m_Layer: 0
   m_Name: FlameEnemy02
   m_TagString: Enemy
@@ -167,7 +168,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 264813
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1979785380, guid: 78041eea6c41e68489939ab57041ddf0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -234,7 +235,7 @@ MonoBehaviour:
   damage: 0
   hurtFactor: 1
   moveSpeed: 0
-  status: []
+  statusList: []
   anim: {fileID: 0}
 --- !u!50 &1536057723428580887
 Rigidbody2D:
@@ -308,3 +309,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2753706, y: 0.3716038}
   m_EdgeRadius: 0
+--- !u!114 &6803837547581058027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368883077475094755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d510f8bf7341e409b3c77a37e07b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propList:
+  - {fileID: 4247758743660167288, guid: 329d5981dedf56e47b8288466269a13a, type: 3}
+  - {fileID: 7048197442096915695, guid: 783bb7cbf58635647b89377d29c248d9, type: 3}
+  - {fileID: 3038650681232731236, guid: 6d8769b63dd238240a66332d08356585, type: 3}
+  rateList:
+  - 0.5
+  - 0.3
+  - 0.2

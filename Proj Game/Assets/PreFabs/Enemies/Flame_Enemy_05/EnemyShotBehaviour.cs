@@ -11,6 +11,8 @@ public class EnemyShotBehaviour : MonoBehaviour
     [SerializeField] private float timeChasing = 0;
     [SerializeField] private float moveSpeed = 0.01f;
     [SerializeField] private float hateDis = 0.1f;
+    [SerializeField] private float attackinterval = 0;
+    private Rigidbody2D rb;
     private GameObject player;
     public int BulletCount = 24;
 
@@ -23,6 +25,7 @@ public class EnemyShotBehaviour : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         player = GameObject.Find("Player");
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -50,23 +53,31 @@ public class EnemyShotBehaviour : MonoBehaviour
                 }
                 break;
             case 1:
-                GetComponent<EnemyController>().StartAttack();
-                if(timer > 0.6)
+                if(attackinterval > 2)
                 {
-                    Burst();
-                    GetComponent<EnemyController>().EndAttack();
-                    timer = 0;
-                    currentState = 2;
+                    GetComponent<EnemyController>().StartAttack();
+                    if (timer > 0.6)
+                    {
+                        Burst();
+                        GetComponent<EnemyController>().EndAttack();
+                        timer = 0;
+                        currentState = 2;
+                    }
+                    else
+                    {
+                        timer += Time.deltaTime;
+                    }
                 }
                 else
                 {
-                    timer += Time.deltaTime;
+                    attackinterval += Time.deltaTime;
                 }
                 break;
             case 2:
                 GetComponent<EnemyController>().StartMove();
                 GetComponent<EnemyController>().EndAttack();
                 timeChasing += Time.deltaTime;
+                attackinterval = 0;
                 MoveTowardPlayer(GameObject.Find("Player").transform.position);
                 if (Vector2.Distance(player.transform.position, transform.position) < hateDis || timeChasing > 1) {
                     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -79,8 +90,8 @@ public class EnemyShotBehaviour : MonoBehaviour
 
     private void MoveTowardPlayer(Vector3 p)
     {
-        Vector2 tSpeed = new Vector2(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y).normalized;
-        GetComponent<Rigidbody2D>().velocity = new Vector2(tSpeed.x * moveSpeed * 100, tSpeed.y * moveSpeed * 100); 
+        Vector2 direction = (p - transform.position).normalized;
+        rb.velocity = direction * moveSpeed * Time.deltaTime;
     }
 
     private void Burst()

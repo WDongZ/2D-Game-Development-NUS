@@ -6,8 +6,8 @@ public class SpeedUp : Buff
 {
     void Awake()
     {
-        buffName = "凌波微步";
-        buffDescription = "移动速度提升1.5";
+        buffName = "Bolt's running shoes";
+        buffDescription = "Wind like sensation, increased movement speed";
     }
     public SpeedUp(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
@@ -15,6 +15,6 @@ public class SpeedUp : Buff
 
     override public void GetBuff(GameObject player)
     {
-        player.GetComponent<PlayerAttribute>().moveSpeed = player.GetComponent<PlayerAttribute>().moveSpeed + 1.5f;
+        player.GetComponent<PlayerAttribute>().moveSpeed = player.GetComponent<PlayerAttribute>().moveSpeed * 2f;
     }
 }

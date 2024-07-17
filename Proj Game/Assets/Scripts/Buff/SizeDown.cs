@@ -6,8 +6,8 @@ public class SizeDown : Buff
 {
     void Awake()
     {
-        buffName = "易筋经";
-        buffDescription = "体型缩小";
+        buffName = "Colorful jellyfish";
+        buffDescription = "The magical jellyfish makes your body smaller";
     }
     public SizeDown(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
@@ -17,6 +17,7 @@ public class SizeDown : Buff
     {
         Vector3 newSize = player.transform.localScale * 0.5f;
         player.transform.localScale = newSize;
+        player.GetComponent<PlayerAttribute>().attackSpeed = player.GetComponent<PlayerAttribute>().attackSpeed * 0.8f;
     }
 
 }

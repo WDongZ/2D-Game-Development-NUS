@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 5647651514592263292}
   - component: {fileID: 2780435571141359818}
   - component: {fileID: 7456080582323520838}
+  - component: {fileID: 4341425657980169269}
   m_Layer: 0
   m_Name: Hearts
   m_TagString: Untagged
@@ -435,6 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1965949dbf77fff48952cfe3fb4b2162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InRange: 0
   FButton: {fileID: 589871084637206151}
   itemPrice: 5
   priceText: {fileID: 5516808696724129087}
@@ -483,6 +485,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1162938, y: 0.8959474}
   m_EdgeRadius: 0
+--- !u!114 &4341425657980169269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7048197442096915695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bad6e35ff9d58e41818de93713cd2d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hz: 1
+  Am: 0.05
 --- !u!1 &8520214797360470422
 GameObject:
   m_ObjectHideFlags: 0

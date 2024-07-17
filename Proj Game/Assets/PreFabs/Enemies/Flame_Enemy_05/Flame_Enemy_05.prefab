@@ -149,8 +149,8 @@ GameObject:
   - component: {fileID: 8304295225455400652}
   - component: {fileID: 8902312665815175128}
   - component: {fileID: 8656044006258135127}
-  - component: {fileID: 6409153917373109838}
   - component: {fileID: 2348985814154347147}
+  - component: {fileID: 1723250305120484218}
   m_Layer: 0
   m_Name: Flame_Enemy_05
   m_TagString: Enemy
@@ -167,8 +167,8 @@ Transform:
   m_GameObject: {fileID: 6099825572627709500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.026, y: -6.34, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_LocalPosition: {x: -4.3641057, y: -1.6819477, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 228379687000068897}
@@ -216,7 +216,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4d920b7661c83584191af904a2dc7b6d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.63836473, b: 0.71794665, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -309,26 +309,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.001782616, y: 0.010554612}
   m_Size: {x: 0.21506254, y: 0.2682184}
   m_Direction: 0
---- !u!114 &6409153917373109838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6099825572627709500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0883189f51805624cae905fb1d4e56ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timmer: 0
-  timer: 0
-  timeChasing: 0
-  moveSpeed: 0.01
-  hateDis: 0.1
-  BulletCount: 13
-  spreadAngle: 30
-  bulletPrefab: {fileID: 8982252307934283585, guid: 709b6fa0410cfcd43a2835b825656fd4, type: 3}
 --- !u!114 &2348985814154347147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,9 +321,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ed6ddf75349d947bb4cc7acaa0e497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 25
-  damage: 1
+  HP: 50
+  damage: 2
   hurtFactor: 1
   moveSpeed: 0
   statusList: []
   anim: {fileID: 0}
+--- !u!114 &1723250305120484218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6099825572627709500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebb5fb33ed532e4da8aac986c8ab466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timmer: 0
+  timer: 0
+  timeChasing: 0
+  moveSpeed: 0.01
+  hateDis: 0.1
+  attackinterval: 0.5
+  attacktimer: 0
+  BulletCount: 13
+  bulletnum: 0
+  spreadAngle: 30
+  bulletPrefab: {fileID: 8982252307934283585, guid: 709b6fa0410cfcd43a2835b825656fd4, type: 3}

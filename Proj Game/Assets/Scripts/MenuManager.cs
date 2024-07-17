@@ -8,7 +8,6 @@ public class MenuManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Enter");
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {

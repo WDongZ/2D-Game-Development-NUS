@@ -31,5 +31,16 @@ public class WallMapController : MonoBehaviour
             }
         }
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.name == "Player")
+        {
+            render.enabled = true;
+            foreach (var rend in renders)
+            {
+                rend.enabled = true;
+            }
+        }
+    }
 
 }

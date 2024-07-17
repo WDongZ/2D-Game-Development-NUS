@@ -6,8 +6,8 @@ public class HpUp : Buff
 {
     void Awake()
     {
-        buffName = "洗髓经";
-        buffDescription = "生命上限增加";
+        buffName = "A bottle of red medicine";
+        buffDescription = "Increase the upper limit of blood volume";
     }
     public HpUp(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
@@ -15,7 +15,7 @@ public class HpUp : Buff
 
     override public void GetBuff(GameObject player)
     {
-        player.GetComponent<PlayerAttribute>().HPUpbound += 2;
-        player.GetComponent<PlayerAttribute>().HP += 2;
+        player.GetComponent<PlayerAttribute>().HPUpbound += 4;
+        player.GetComponent<PlayerAttribute>().HP += 4;
     }
 }

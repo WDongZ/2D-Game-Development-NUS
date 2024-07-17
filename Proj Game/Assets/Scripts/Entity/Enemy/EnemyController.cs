@@ -40,7 +40,7 @@ public class EnemyController : EntityAttribute
         {
             anim.Play("Enemy_Idel");
             isHurt = true;
-            HP -= attacker.GetComponent<Bullet>().damage * hurtFactor;
+            HP -= attacker.GetComponent<Attacker>().damage * hurtFactor;
         }
     }
 

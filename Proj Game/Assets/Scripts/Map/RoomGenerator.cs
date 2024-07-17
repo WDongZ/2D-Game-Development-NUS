@@ -1,3 +1,4 @@
+using Cinemachine.Utility;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,6 +33,10 @@ public class RoomGenerator : MonoBehaviour
 
     List<GameObject> entityLayers = new List<GameObject>();
 
+    public GameObject bossSign;
+    public GameObject merchantSign;
+    public GameObject altarSign;
+
     void Start()
     {
         for (int i = 0; i < roomNumber; i++)
@@ -52,19 +57,35 @@ public class RoomGenerator : MonoBehaviour
 
             SetupRoom(room, room.transform.position);
         }
-        rooms[0].entityLayerl = null;
-        foreach (var layer in entityLayers)
-        {
-            layer.SetActive(false);
-        }
+        Destroy(rooms[0].entityLayerl);
         FindEndRoom();
+
+        Destroy(endRoom.GetComponent<Room>().entityLayerl);
         GameObject bossL = Instantiate(entityLayerType.BossLayer, endRoom.transform.position, Quaternion.identity);
         endRoom.GetComponent<Room>().entityLayerl = bossL;
-        bossL.SetActive(false);
 
+        GameObject bSign = Instantiate(bossSign,new Vector3(endRoom.transform.position.x, endRoom.transform.position.y,-15), Quaternion.identity);
+
+        Destroy(rooms[1].GetComponent<Room>().entityLayerl);
         GameObject merchantL = Instantiate(entityLayerType.MerchantRoom, rooms[1].transform.position, Quaternion.identity);
         rooms[1].GetComponent<Room>().entityLayerl = merchantL;
-        merchantL.SetActive(false);
+
+        GameObject mSign = Instantiate(merchantSign, new Vector3(rooms[1].transform.position.x, rooms[1].transform.position.y,-15), Quaternion.identity);
+
+        GameObject altarRoom = null;
+        foreach(var room in rooms)
+        {
+            if (!room.gameObject.Equals(rooms[1].gameObject) && !room.gameObject.Equals(endRoom) && !room.gameObject.Equals(rooms[0].gameObject))
+            {
+                altarRoom = room.gameObject;
+                break;
+            }
+        }
+
+        Destroy(altarRoom.GetComponent<Room>().entityLayerl);
+        GameObject alterLayer = Instantiate(entityLayerType.AlterRoom, altarRoom.transform.position, Quaternion.identity);
+        altarRoom.GetComponent<Room>().entityLayerl = alterLayer;
+        GameObject aSign = Instantiate(altarSign, new Vector3(altarRoom.transform.position.x, altarRoom.transform.position.y, -15), Quaternion.identity);
     }
 
     // Update is called once per frame
@@ -230,6 +251,11 @@ public class RoomGenerator : MonoBehaviour
                 newRoom.entityLayerl = eL13;
                 entityLayers.Add(eL13);
                 break;
+            case 14:
+                GameObject eL14 = Instantiate(entityLayerType.FlameEntityLayerL215, roomPosition, Quaternion.identity);
+                newRoom.entityLayerl = eL14;
+                entityLayers.Add(eL14);
+                break;
         }
 
     }
@@ -289,5 +315,5 @@ public class EnyityLayerType
 {
     public GameObject FlameEntityLayerL201, FlameEntityLayerL202, FlameEntityLayerL203, FlameEntityLayerL204, FlameEntityLayerL205, BossLayer,
         FlameEntityLayerL206, FlameEntityLayerL207, FlameEntityLayerL208, FlameEntityLayerL209, FlameEntityLayerL210, FlameEntityLayerL211, 
-        FlameEntityLayerL212, FlameEntityLayerL213, FlameEntityLayerL214, MerchantRoom;
+        FlameEntityLayerL212, FlameEntityLayerL213, FlameEntityLayerL214, FlameEntityLayerL215,MerchantRoom, AlterRoom;
 }

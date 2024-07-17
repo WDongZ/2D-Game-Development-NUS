@@ -88,7 +88,7 @@ public class Bullet : Attacker
                 GetComponent<Collider2D>().enabled = false;
             }
         }
-        if (collision.gameObject.name == "Tilemap")
+        if (collision.gameObject.name == "Tilemap" || collision.gameObject.tag == "Wall")
         {
             isHit = true;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;

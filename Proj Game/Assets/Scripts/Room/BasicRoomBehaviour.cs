@@ -12,6 +12,8 @@ public class BasicRoomBehaviour : MonoBehaviour
 
     private int playerCount = 0;
 
+    private bool enemyGenereted = false;
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
@@ -40,7 +42,6 @@ public class BasicRoomBehaviour : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             enemyCount--;
-            TryDrop(other.transform.position);
 
         }
         if (other.CompareTag("Player"))
@@ -59,17 +60,14 @@ public class BasicRoomBehaviour : MonoBehaviour
         return playerCount;
     }
 
-    private void TryDrop(Vector3 position)
+    public bool EnemyGenerated()
     {
-        if (Random.value <= 0.45f)
-        {
-            Instantiate(coinPrefab, position, coinPrefab.transform.rotation);
-        }
-        if(Random.value >= 2)
-        {
-            int i =Random.Range(0, Buffs.Count);
-            Instantiate(Buffs[i], position, Quaternion.identity);
-        }
+        return enemyGenereted;
+    }
+
+    public void EnemyGenerateSet()
+    {
+        enemyGenereted = true;
     }
 
 

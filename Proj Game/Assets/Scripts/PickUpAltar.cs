@@ -16,16 +16,21 @@ public class PickUpAltar : MonoBehaviour
 
     public GameObject FButton;
 
+    [SerializeField] private bool isActived = false;
+
     void Start()
     {
         playerGameObject = GameObject.Find("Player");
         player = playerGameObject.GetComponent<PlayerController>();
-        FButton.SetActive(false);
+        foreach (Transform t in transform)
+        {
+            t.gameObject.SetActive(false);
+        }
     }
 
     void Update()
     {
-        if(InRange && Input.GetKeyDown(KeyCode.F))
+        if(InRange && Input.GetKeyDown(KeyCode.F) && isActived)
         {
             PickUp();
         }
@@ -33,7 +38,7 @@ public class PickUpAltar : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && isActived)
         {
             InRange = true;
             FButton.SetActive(true);
@@ -42,7 +47,7 @@ public class PickUpAltar : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && isActived)
         {
             InRange = true;
             FButton.SetActive(true);
@@ -51,7 +56,7 @@ public class PickUpAltar : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && isActived)
         {
             InRange = false;
             FButton.SetActive(false);
@@ -66,6 +71,16 @@ public class PickUpAltar : MonoBehaviour
             floatingItems.GetComponent<Buff>().GetBuff(player.gameObject);
             Destroy(floatingItems);
             Destroy(FButton);
+        }
+    }
+
+    public void ActiveAltar()
+    {
+        isActived = true;
+        foreach (Transform t in transform)
+        {
+            if(!t.Equals(FButton))
+                t.gameObject.SetActive(true);
         }
     }
 }

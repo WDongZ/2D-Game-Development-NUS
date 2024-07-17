@@ -6,8 +6,8 @@ public class SizeUp : Buff
 {
     void Awake()
     {
-        buffName = "大力金刚";
-        buffDescription = "体型增大";
+        buffName = "Mushrooms for plumbers";
+        buffDescription = "Red and blue overalls experience card, increased body size";
     }
     public SizeUp(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
@@ -17,8 +17,7 @@ public class SizeUp : Buff
     {
         Vector3 newSize = player.transform.localScale * 1.5f;
         player.transform.localScale = newSize;
-        player.GetComponent<PlayerAttribute>().damage += 5 ;
-        player.GetComponent<PlayerAttribute>().attackSpeed = player.GetComponent<PlayerAttribute>().attackSpeed + 0.2f;
+        player.GetComponent<PlayerAttribute>().damage += 4 ;
 
     }
 

@@ -6,6 +6,7 @@ using UnityEngine;
 public class DoorController : MonoBehaviour
 {
     private GameObject room;
+    private float timer = 0;
     private bool isOpen = true;
 
     private void Awake()
@@ -33,22 +34,18 @@ public class DoorController : MonoBehaviour
 
     private void Update()
     {
-        if(room.GetComponent<BasicRoomBehaviour>().GetPlayerCount()==1&&room.GetComponent<BasicRoomBehaviour>().GetEnemyCount()!=0)
+        timer += Time.deltaTime;
+        if(room.GetComponent<BasicRoomBehaviour>().GetPlayerCount() == 1 && room.GetComponent<BasicRoomBehaviour>().GetEnemyCount() != 0)
         {
             CloseDoor();
+            timer = 0;
         }
         else
         {
-            OpenDoor();
+            if (timer > .1f) { OpenDoor(); }
         }
+
         GetComponent<Animator>().SetBool("isOpen", isOpen);
-    }
-
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-            GetComponentInParent<Room>().entityLayerl.SetActive(true);
     }
     
 }

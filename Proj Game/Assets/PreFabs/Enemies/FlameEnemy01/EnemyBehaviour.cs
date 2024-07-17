@@ -13,6 +13,7 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField] private float timeChasing = 0;
     [SerializeField] private float moveSpeed = 0.01f;
     [SerializeField] private float hateDis = 0.1f;
+    [SerializeField] private float attackinterval = 0;
     private GameObject player;
 
     public GameObject bulletPrefab;
@@ -34,7 +35,7 @@ public class EnemyBehaviour : MonoBehaviour
             case 0:
                 GetComponent<EnemyController>().EndMove();
                 GetComponent<EnemyController>().EndAttack();
-                if (timmer > 3 || timeChasing > 1)
+                if (timmer > 3 || timeChasing > 2)
                 {
                     currentState = 1;
                     timmer = 0;
@@ -47,15 +48,24 @@ public class EnemyBehaviour : MonoBehaviour
                 }
                 break;
             case 1:
-                GetComponent<EnemyController>().StartAttack();
-                Burst();
-                currentState = 2;
+                if(attackinterval>0.8)
+                {
+                    GetComponent<EnemyController>().StartAttack();
+                    Burst();
+                    currentState = 2;
+                    break;
+                }
+                else
+                {
+                    attackinterval += Time.deltaTime;
+                }
                 break;
             case 2:
                 GetComponent<EnemyController>().StartMove();
+                attackinterval = 0;
                 timeChasing += Time.deltaTime;
                 MoveTowardPlayer(GameObject.Find("Player").transform.position);
-                if (Vector2.Distance(player.transform.position, transform.position) < hateDis || timeChasing > 1) {
+                if (Vector2.Distance(player.transform.position, transform.position) < hateDis || timeChasing > 2) {
                     GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                     currentState = 0; 
                 }

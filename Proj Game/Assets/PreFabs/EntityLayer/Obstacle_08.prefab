@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8428409472249403820}
   - component: {fileID: 4845456235820991968}
   - component: {fileID: 7439753423460142816}
-  - component: {fileID: 214242212874617170}
+  - component: {fileID: 8433472829330433107}
   m_Layer: 0
   m_Name: Obstacle_08
   m_TagString: Wall
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 264813
-  m_SortingLayer: 5
+  m_SortingLayerID: 291231083
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -547401516, guid: fedbbd7157d79e7469546d3ef78d2541, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -113,8 +113,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!60 &214242212874617170
-PolygonCollider2D:
+--- !u!70 &8433472829330433107
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -145,32 +145,6 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.984375, y: 1.15625}
-    newSize: {x: 1.171875, y: 1.375}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.4765625, y: -0.09375}
-      - {x: 0.4921875, y: 0.15625}
-      - {x: 0.4921875, y: 0.296875}
-      - {x: 0.4140625, y: 0.515625}
-      - {x: 0.3671875, y: 0.578125}
-      - {x: 0.0390625, y: 0.578125}
-      - {x: -0.1640625, y: 0.53125}
-      - {x: -0.3359375, y: 0.515625}
-      - {x: -0.4921875, y: 0.359375}
-      - {x: -0.4921875, y: -0.171875}
-      - {x: -0.4296875, y: -0.25}
-      - {x: -0.4921875, y: -0.296875}
-      - {x: -0.4921875, y: -0.515625}
-      - {x: -0.4765625, y: -0.578125}
-      - {x: 0.4921875, y: -0.578125}
-      - {x: 0.4921875, y: -0.09375}
-  m_UseDelaunayMesh: 0
+  m_Offset: {x: 0.0053367615, y: -0.041359186}
+  m_Size: {x: 0.7602329, y: 1.0094905}
+  m_Direction: 0

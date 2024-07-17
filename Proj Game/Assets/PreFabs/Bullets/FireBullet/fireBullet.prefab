@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6111213827812495336}
   - component: {fileID: 6678351969292855341}
   - component: {fileID: 2449816153735918167}
+  - component: {fileID: 984634823940330022}
+  - component: {fileID: 6613400317422725921}
   m_Layer: 0
   m_Name: fireBullet
   m_TagString: Untagged
@@ -73,10 +75,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1099006659
+  m_SortingLayer: 7
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2e06966667eb85a4084d94e0490ad91b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90db5488fb816cb438999340f31583f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -167,6 +169,40 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0060317516, y: -0.2505172}
-  m_Size: {x: 0.3268662, y: 0.34075224}
+  m_Offset: {x: 0.255064, y: 0.0056985617}
+  m_Size: {x: 0.33644485, y: 0.36996865}
   m_Direction: 0
+--- !u!114 &984634823940330022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8047722699591309414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df563222ee06fd84a97c77c4ce65c318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  speed: 5
+  isHit: 0
+  anim: {fileID: 0}
+  status: {fileID: 6613400317422725921}
+--- !u!114 &6613400317422725921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8047722699591309414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3057c2fabc3e4404681818dc5f622ff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iObject: {fileID: 0}
+  lastingTime: 2.5
+  timer: 0
+  statusLasting: 0
+  statusEffect: {fileID: 2167442984649483392, guid: ed3f64a9c9849e040bf96636128fd9de, type: 3}

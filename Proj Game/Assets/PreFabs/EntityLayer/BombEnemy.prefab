@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5765124858557764332}
   - component: {fileID: 4558772694624310168}
   - component: {fileID: 2071216639936137862}
+  - component: {fileID: -5801012121912598487}
   m_Layer: 0
   m_Name: BombEnemy
   m_TagString: Enemy
@@ -189,6 +190,7 @@ MonoBehaviour:
   timeChasing: 0
   moveSpeed: 0.01
   hateDis: 0
+  attackinterval: 0
   bombPrefab: {fileID: 7288495983309499680, guid: 8a48745580f30414caed360c48237875, type: 3}
 --- !u!114 &2071216639936137862
 MonoBehaviour:
@@ -202,9 +204,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ed6ddf75349d947bb4cc7acaa0e497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 10
+  HP: 6
   damage: 0
   hurtFactor: 1
   moveSpeed: 1
   statusList: []
   anim: {fileID: 0}
+--- !u!114 &-5801012121912598487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349940074966199280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d510f8bf7341e409b3c77a37e07b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propList:
+  - {fileID: 4247758743660167288, guid: 329d5981dedf56e47b8288466269a13a, type: 3}
+  - {fileID: 6755489284281883093, guid: 8e9180bebfa954e45b894a3079f41cb8, type: 3}
+  rateList:
+  - 0.6
+  - 0.2

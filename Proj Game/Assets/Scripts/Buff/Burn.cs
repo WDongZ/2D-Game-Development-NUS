@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Burn : Buff
 {
+    public GameObject fireBall;
     void Awake()
     {
         buffName = "火之高兴";
-        buffDescription = "持续伤害";
+        buffDescription = "灼烧buff";
     }
     public Burn(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
@@ -15,7 +16,6 @@ public class Burn : Buff
 
     override public void GetBuff(GameObject player)
     {
-        Debug.Log("burn");
-        player.AddComponent<BurnStatus>();
+        player.GetComponent<PlayerAttribute>().bullet = fireBall;
     }
 }

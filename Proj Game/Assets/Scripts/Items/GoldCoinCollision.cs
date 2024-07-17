@@ -5,16 +5,13 @@ using UnityEngine;
 public class GoldCoinCollision : MonoBehaviour
 {
     private PlayerAttribute player;
+    public AudioClip coinSound; // 引用音效文件
+    private AudioSource audioSource;
 
     void Start()
     {
         player = GameObject.Find("Player").GetComponent<PlayerAttribute>();
-
-    }
-
-    void Update()
-    {
-        
+        audioSource = GameObject.Find("Main Camera").GetComponent<AudioSource>(); // 假设AudioSource在主摄像机上
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,8 +21,8 @@ public class GoldCoinCollision : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             player.goldCoinNum++;
+            audioSource.PlayOneShot(coinSound); // 播放音效
             Destroy(gameObject);
         }
     }
-
 }

@@ -28,7 +28,7 @@ public class BulletControl : MonoBehaviour
         int halfbulletNum = count / 2;
         for (int i = 0; i < count; i++)
         {
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, bulletPrefab.transform.rotation);
             bullet.GetComponent<SpriteRenderer>().color = bulletColor;
             bullet.transform.position = Spawndirection;
             //bullet.GetComponent<Bullet>().SetSpeed(direction);

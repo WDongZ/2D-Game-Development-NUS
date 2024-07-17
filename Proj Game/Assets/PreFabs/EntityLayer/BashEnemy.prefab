@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 8750440928068984432}
   - component: {fileID: 4663242831739623711}
   - component: {fileID: -5574110963601090309}
+  - component: {fileID: 3935129321370755379}
+  - component: {fileID: 264358806735224292}
   m_Layer: 0
   m_Name: BashEnemy
   m_TagString: Enemy
@@ -150,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ed6ddf75349d947bb4cc7acaa0e497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 10
+  HP: 16
   damage: 0
   hurtFactor: 1
   moveSpeed: 0
@@ -218,6 +220,38 @@ MonoBehaviour:
   moveSpeed: 300
   hateDis: 1
   attackCooldown: 2
+--- !u!114 &3935129321370755379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000169555149800048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d510f8bf7341e409b3c77a37e07b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propList:
+  - {fileID: 4247758743660167288, guid: 329d5981dedf56e47b8288466269a13a, type: 3}
+  - {fileID: 6755489284281883093, guid: 8e9180bebfa954e45b894a3079f41cb8, type: 3}
+  rateList:
+  - 0.6
+  - 0.2
+--- !u!114 &264358806735224292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5000169555149800048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d510f8bf7341e409b3c77a37e07b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propList: []
+  rateList: []
 --- !u!1 &8079715999755488846
 GameObject:
   m_ObjectHideFlags: 0
