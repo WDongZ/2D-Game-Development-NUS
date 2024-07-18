@@ -12,6 +12,7 @@ public class Bullet : Attacker
     public bool isHit = false;
     public Animator anim;
     public Status status;
+    public bool isLeft = false;
 
 
     private void Awake()
@@ -27,7 +28,7 @@ public class Bullet : Attacker
     public void SetSpeed(Vector2 direction)
     {
         rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
-        transform.right = direction;
+        transform.right = isLeft ? -direction : direction;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

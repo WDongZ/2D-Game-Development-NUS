@@ -16,6 +16,7 @@ public class Burn : Buff
 
     override public void GetBuff(GameObject player)
     {
-        player.GetComponent<PlayerAttribute>().bullet = fireBall;
+        player.GetComponent<PlayerAttribute>().bullets.Add(fireBall);
+        player.GetComponent<PlayerAttribute>().bulletRates.Add(2f);
     }
 }

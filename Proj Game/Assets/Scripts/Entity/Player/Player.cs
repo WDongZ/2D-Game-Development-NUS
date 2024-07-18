@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.U2D;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -69,7 +69,8 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.zero;
             GetComponent<Collider2D>().enabled = false;
         }
-        GetComponent<BulletControl>().bulletPrefab = GetComponent<PlayerAttribute>().bullet;
+        GetComponent<BulletControl>().bulletPrefabs = GetComponent<PlayerAttribute>().bullets;
+        GetComponent<BulletControl>().bulletRates = GetComponent<PlayerAttribute>().bulletRates;
     }
 
 
@@ -88,7 +89,7 @@ public class PlayerController : MonoBehaviour
             attackTime = playerAttribute.attackSpeed;
             Vector2 mPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 direction = (mPos - new Vector2(transform.position.x, transform.position.y)).normalized;
-            GetComponent<BulletControl>().Burst(playerAttribute.attackSpeed, direction, transform.position);
+            GetComponent<BulletControl>().Burst(playerAttribute.attackSpeed, direction, new Vector3(transform.position.x + direction.x, transform.position.y + direction.y,0));
             isAttacking = true;
         }
 
@@ -97,8 +98,8 @@ public class PlayerController : MonoBehaviour
             if (!minimap.enabled)
             {
                 minimap.enabled = true;
-                miniMap.transform.position = new Vector3(transform.position.x, transform.position.y,-20);
-            } 
+                miniMap.transform.position = new Vector3(transform.position.x, transform.position.y, -20);
+            }
             else
             {
                 minimap.enabled = false;
@@ -160,11 +161,21 @@ public class PlayerController : MonoBehaviour
 
     public void GetHurt(GameObject attacker)
     {
-        if (!isHurt && dashTime < 0) 
+        if (!isHurt && dashTime < 0)
         {
             anim.Play("Player_Idel");
             isHurt = true;
             playerAttribute.HP -= (int)attacker.GetComponent<Attacker>().damage;
+        }
+    }
+
+    public void GetHurt(int damage)
+    {
+        if (!isHurt && dashTime < 0)
+        {
+            anim.Play("Player_Idel");
+            isHurt = true;
+            playerAttribute.HP -= damage;
         }
     }
 
@@ -176,5 +187,20 @@ public class PlayerController : MonoBehaviour
     private void EndHurt()
     {
         isHurt = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            GetHurt(1);
+        }
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            GetHurt(1);
+        }
     }
 }

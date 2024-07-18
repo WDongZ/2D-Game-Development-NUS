@@ -1,0 +1,2063 @@
+fileFormatVersion: 2
+guid: 41c1057c47e4191479387c9a530eb2e4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Decorative_water_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 832
+        width: 191
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c61d442e60a9e41a6fc8317a9ac3ed
+      internalID: -1265881081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 928
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f5567f776e1f845962fa592fb7f16b
+      internalID: -321850127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 896
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f918222f28dbe84a92315ba13b42871
+      internalID: -1534246655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 896
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b1d8c2d6b82444bd59ce1ac0beb3c
+      internalID: -257781593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 896
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c779e2614b6e55e49962ef210d0bfd5e
+      internalID: -1635093411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 896
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2614460de86144e83d2a4ef010e389
+      internalID: 334893254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 782
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b792726fab2552d42b38f84e02ae516d
+      internalID: -1323714697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 842
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869fcea491ece6a43ac8bdd7d02f27a2
+      internalID: -2029205717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 832
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93648826673d5084c878debde11ef74c
+      internalID: 1630329633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 768
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a3107c099a80f4a9943d81b8103906
+      internalID: 1469593272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 768
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0795caf2e196047a4bdcf14d4ca8db
+      internalID: -1775903572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 768
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168e1cd7c0d8c36449a4d0782ce82f57
+      internalID: -407022617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 545
+        width: 191
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b552ad1d5197eb4e98f3040da0b09ac
+      internalID: -558251945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 641
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb9b726c63cbfd4da7108c36d33c7cf
+      internalID: 1666475054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 609
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6778b6ce30b4a4f839ad1d8093da99
+      internalID: 908401316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 609
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b754d2ec37152a40ba0c2159913f25a
+      internalID: -793025587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_16
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 609
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8d15dfd70093d49bc942096b9ecfb3
+      internalID: 803838090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 609
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dba44c9685da941932b7819a934591
+      internalID: -1223931760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_18
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 526
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fcb35325a969643a9cbd623df395bc
+      internalID: 467599654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_19
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 586
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a385cdb81cefd14c9fccd9d8195419d
+      internalID: -1829429807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 545
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343c1268f2aa26842963010b59515eb1
+      internalID: 1375435239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 481
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fbccaed40d2604bb92a6015b283c9b
+      internalID: -1211484691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_22
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 481
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b1a04f50067d4bb674aa2eecb8ace
+      internalID: -1887856318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_23
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 481
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b7986fecf172444a5789a964b68e72
+      internalID: -2142503029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_24
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 452
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcb615f6f8eec94889db763a0e0a548
+      internalID: -1730193230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 454
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07450be7930e4b48a767724077c6915
+      internalID: -897363919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 449
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8818703f153a408ac56cd39c5f0ae
+      internalID: -1723106648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_27
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 449
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0204053506ff44d9a89d1cdf8f3ebd
+      internalID: -940381226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_28
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 452
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baaf7dc86a909a41a971db64dc6de60
+      internalID: 96461220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 330
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c5e45698cfdde4d93cea15b20ff0b8
+      internalID: 76901821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 270
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb63af580e5d26f4a82e20ffd7649959
+      internalID: -1204765896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 290
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858de9b9569f97040a8415c858305468
+      internalID: -2128688000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 291
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33d8b91445201540a717320a5038c28
+      internalID: -684229838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 426
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3599186ac6fce4685dc72fcff221df
+      internalID: 406963877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_34
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 422
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e152cd26439fd85428435f40f878974d
+      internalID: 534071143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 420
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bb441b3edc84542a7989ffbdc3bde6
+      internalID: 894874411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_36
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 427
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c644446026a69ab4d97e427f68aa05b4
+      internalID: -1307578535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 426
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5278b279bbfb3d347b57ca4a5ff18aee
+      internalID: -29885420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_38
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 428
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e14d6d2252eca4cb237271caf399cc
+      internalID: -1401375775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 288
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c5a57157665e34a96f2186fdcf0b9b
+      internalID: 1097275865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 394
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26398134e88fca34db4014f6d828b36d
+      internalID: 2080160136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_41
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 385
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f8f74462ee894aba67dd9dd2a2a2b
+      internalID: 119135504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_42
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 385
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b54eb79005f61448ad9756f1c01ce3
+      internalID: 1803433221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_43
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 388
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1d81e8ef7c17547b0d52a152246de4
+      internalID: -1565853215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_44
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 290
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa6b94f5e9a9594c82ccd17d74d0b53
+      internalID: -1409486041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_45
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 291
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32476243800d3544aad827ac82de2bd9
+      internalID: 2108871101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 363
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545ccb5953985d94eb026f0fa9ecfcbf
+      internalID: -303985720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_47
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 362
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63f7865faa01bb458c512e9c5a8e0bc
+      internalID: -1442226919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_48
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 364
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86221021219ee624c853c27f7238122f
+      internalID: 15060385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 290
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5591afb5f0b1f064c98c29cd9bde2eac
+      internalID: 1318912171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_50
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 321
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4272786a2c317d248af3d21b6539538b
+      internalID: -2075338392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_51
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 321
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673982cdca1840340a395c8d8f8b9b56
+      internalID: -45455622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_52
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 324
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b611817a7d4720449801ca01993a7c9
+      internalID: 2086338759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_53
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 299
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8210ebe3637c85439dee64315ee7161
+      internalID: -978946228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_54
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 298
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1959a868b5ccad1479f9c0f68b52e841
+      internalID: -985681731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_55
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 300
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b398517842546941bd1801cfbae9370
+      internalID: 977923105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdeea49c0b30c4344844eb7cc8e7a3d0
+      internalID: -1364079817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 131
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc95a2e96f9bf0d459d34591bd3c6d8e
+      internalID: 1986466255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_58
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 260
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a012d091e2b8cd4d95f57bbfef7a0c6
+      internalID: 1555059701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_59
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 257
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1f09e88fae0bb4281f337c9745dde9
+      internalID: -397266243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_60
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 257
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4713f4ea32e3b2e46acde7e0fc155b69
+      internalID: 1357434198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_61
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 128
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5983a33cfe412724ab54167e7b2ba72a
+      internalID: -550873829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_62
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 236
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caebad12908da1439e5a47943fc4a2f
+      internalID: 556777415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_63
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740458e49de83284890c5c2c1a682b45
+      internalID: 101287163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_64
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 235
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592c1cd1577a4574b9743404152099ae
+      internalID: 1127289234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_65
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 14
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d89cecd63dc0fc4e806fccb9ae4e3c7
+      internalID: -799421657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_66
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5cdc89b706046409b7e3ced4bdf0d5
+      internalID: 1071801460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_67
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 130
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb4f28dcb65c504a8c2130440713349
+      internalID: 2030664893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 131
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c51af4ccbcb24341ba7ce6882de71f6
+      internalID: 1897204000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_69
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 196
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49639d51953e79c4383221266014c3e7
+      internalID: -285389836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_70
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 193
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcddb630d5713fd4e859985e52fe8f6d
+      internalID: 262069645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_71
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 193
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500b2b3be629e74c8d63a5c2d3c7aa6
+      internalID: 1474090823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_72
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 74
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e412c171b471c74481db8d55b6bd281
+      internalID: 1967591920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_73
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 172
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a609760fe3a2074fab50544cfdd5c2c
+      internalID: 1635234368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_74
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 170
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8875a04969157874796a03991612dc57
+      internalID: -77521956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_75
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 171
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f134214acd8d24c9e93e1d9259e832
+      internalID: -840951500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_76
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 132
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93781efd6f330564c9a517929aaf7525
+      internalID: -884805562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_77
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 129
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661eda05b85972540906dab5cc26d2d4
+      internalID: -1938967823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_78
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 129
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeea15423d9a0b4f928b4bdd990b8ae
+      internalID: -273274730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_79
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c21c2030488194f8ecb43dd76b5242
+      internalID: -1419498764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_80
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d44e2c9a6888a429282a48d5b720bb
+      internalID: -1157592147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_81
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 108
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5141848b2d310c54995d27625502824a
+      internalID: 701652531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_82
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 106
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aede945927baa4fac76c1e92ec8b25
+      internalID: 1217872899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 107
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8db3fc2671f38c419199524493949e0
+      internalID: 1230024421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8e09ae91bafc408a790c4a7ff9436
+      internalID: 739626957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecdd3cf770ba0046ab55fc4d790be1f
+      internalID: -1825824834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_86
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eaf8b97fe63254187100e325a0a607
+      internalID: -1379672262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_water_87
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0567655538e440545b3af43c9d9b4a23
+      internalID: -897481853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Decorative_water_0: -1265881081
+      Decorative_water_1: -321850127
+      Decorative_water_10: -1775903572
+      Decorative_water_11: -407022617
+      Decorative_water_12: -558251945
+      Decorative_water_13: 1666475054
+      Decorative_water_14: 908401316
+      Decorative_water_15: -793025587
+      Decorative_water_16: 803838090
+      Decorative_water_17: -1223931760
+      Decorative_water_18: 467599654
+      Decorative_water_19: -1829429807
+      Decorative_water_2: -1534246655
+      Decorative_water_20: 1375435239
+      Decorative_water_21: -1211484691
+      Decorative_water_22: -1887856318
+      Decorative_water_23: -2142503029
+      Decorative_water_24: -1730193230
+      Decorative_water_25: -897363919
+      Decorative_water_26: -1723106648
+      Decorative_water_27: -940381226
+      Decorative_water_28: 96461220
+      Decorative_water_29: 76901821
+      Decorative_water_3: -257781593
+      Decorative_water_30: -1204765896
+      Decorative_water_31: -2128688000
+      Decorative_water_32: -684229838
+      Decorative_water_33: 406963877
+      Decorative_water_34: 534071143
+      Decorative_water_35: 894874411
+      Decorative_water_36: -1307578535
+      Decorative_water_37: -29885420
+      Decorative_water_38: -1401375775
+      Decorative_water_39: 1097275865
+      Decorative_water_4: -1635093411
+      Decorative_water_40: 2080160136
+      Decorative_water_41: 119135504
+      Decorative_water_42: 1803433221
+      Decorative_water_43: -1565853215
+      Decorative_water_44: -1409486041
+      Decorative_water_45: 2108871101
+      Decorative_water_46: -303985720
+      Decorative_water_47: -1442226919
+      Decorative_water_48: 15060385
+      Decorative_water_49: 1318912171
+      Decorative_water_5: 334893254
+      Decorative_water_50: -2075338392
+      Decorative_water_51: -45455622
+      Decorative_water_52: 2086338759
+      Decorative_water_53: -978946228
+      Decorative_water_54: -985681731
+      Decorative_water_55: 977923105
+      Decorative_water_56: -1364079817
+      Decorative_water_57: 1986466255
+      Decorative_water_58: 1555059701
+      Decorative_water_59: -397266243
+      Decorative_water_6: -1323714697
+      Decorative_water_60: 1357434198
+      Decorative_water_61: -550873829
+      Decorative_water_62: 556777415
+      Decorative_water_63: 101287163
+      Decorative_water_64: 1127289234
+      Decorative_water_65: -799421657
+      Decorative_water_66: 1071801460
+      Decorative_water_67: 2030664893
+      Decorative_water_68: 1897204000
+      Decorative_water_69: -285389836
+      Decorative_water_7: -2029205717
+      Decorative_water_70: 262069645
+      Decorative_water_71: 1474090823
+      Decorative_water_72: 1967591920
+      Decorative_water_73: 1635234368
+      Decorative_water_74: -77521956
+      Decorative_water_75: -840951500
+      Decorative_water_76: -884805562
+      Decorative_water_77: -1938967823
+      Decorative_water_78: -273274730
+      Decorative_water_79: -1419498764
+      Decorative_water_8: 1630329633
+      Decorative_water_80: -1157592147
+      Decorative_water_81: 701652531
+      Decorative_water_82: 1217872899
+      Decorative_water_83: 1230024421
+      Decorative_water_84: 739626957
+      Decorative_water_85: -1825824834
+      Decorative_water_86: -1379672262
+      Decorative_water_87: -897481853
+      Decorative_water_9: 1469593272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

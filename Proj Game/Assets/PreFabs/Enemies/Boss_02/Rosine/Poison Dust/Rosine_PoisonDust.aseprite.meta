@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: c7ad4c5e506d64b4cb9185080f8b293b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Rosine_PoisonDust_Frame_0
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 411
+      height: 628
+    spriteID: 9c3efb42452970242b90821612d416e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Rosine_PoisonDust_Frame_1
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 640
+      width: 411
+      height: 628
+    spriteID: 67c7f87a5b5849e4c984ae50b5af007f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 640}
+  - name: Rosine_PoisonDust_Frame_2
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1276
+      width: 411
+      height: 628
+    spriteID: afb77ea79bc53f14bbb98ed392759b05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1276}
+  - name: Rosine_PoisonDust_Frame_3
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1912
+      width: 411
+      height: 628
+    spriteID: 01c5933616873df4a85c1f4334cd49c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1912}
+  - name: Rosine_PoisonDust_Frame_4
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2548
+      width: 411
+      height: 628
+    spriteID: c60a98b61c2650d42ac02d4382973af5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2548}
+  - name: Rosine_PoisonDust_Frame_5
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3184
+      width: 411
+      height: 628
+    spriteID: db604062877473543bc634a17e9c75a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3184}
+  - name: Rosine_PoisonDust_Frame_6
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 4
+      width: 411
+      height: 628
+    spriteID: ef13524046dc11e46a65bd2a40a0b5a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 4}
+  - name: Rosine_PoisonDust_Frame_7
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 640
+      width: 411
+      height: 628
+    spriteID: fe3de9e030a23634cb215ac4ded1ab34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 640}
+  - name: Rosine_PoisonDust_Frame_8
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 1276
+      width: 411
+      height: 628
+    spriteID: f177bfff5f1773e43950bdef1eb4bc54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 1276}
+  - name: Rosine_PoisonDust_Frame_9
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 1912
+      width: 411
+      height: 628
+    spriteID: 4bd3a0286cedf7347bd91ba33f74f018
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 1912}
+  - name: Rosine_PoisonDust_Frame_10
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 2548
+      width: 411
+      height: 628
+    spriteID: d2a9077dabb3b194d85d25e3923e415d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 2548}
+  - name: Rosine_PoisonDust_Frame_11
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 423
+      y: 3184
+      width: 411
+      height: 628
+    spriteID: 6f9aa85c6e2e03740b0408e89765303e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 423, y: 3184}
+  - name: Rosine_PoisonDust_Frame_12
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 842
+      y: 4
+      width: 411
+      height: 628
+    spriteID: c83983283063731409352b93291ac3a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 842, y: 4}
+  - name: Rosine_PoisonDust_Frame_13
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 842
+      y: 640
+      width: 411
+      height: 628
+    spriteID: 5bc923e125cee5c46baa0f1ea0105519
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 842, y: 640}
+  - name: Rosine_PoisonDust_Frame_14
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 842
+      y: 1276
+      width: 411
+      height: 628
+    spriteID: 6b77fe8479370334fadcfec70a666c8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 842, y: 1276}
+  - name: Rosine_PoisonDust_Frame_15
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 842
+      y: 1912
+      width: 411
+      height: 628
+    spriteID: bbcb506cb7e04df4fac2662528f7b439
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 842, y: 1912}
+  - name: Rosine_PoisonDust_Frame_16
+    originalName: 
+    pivot: {x: 0.5632603, y: 0.5047771}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 842
+      y: 2548
+      width: 411
+      height: 628
+    spriteID: 34d5ed20808fa4f4da9a06707b354d91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 842, y: 2548}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 515303189
+    name: Rosine_PoisonDust
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Rosine_PoisonDust_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 9c3efb42452970242b90821612d416e5
+    - name: Rosine_PoisonDust_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 67c7f87a5b5849e4c984ae50b5af007f
+    - name: Rosine_PoisonDust_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: afb77ea79bc53f14bbb98ed392759b05
+    - name: Rosine_PoisonDust_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 01c5933616873df4a85c1f4334cd49c6
+    - name: Rosine_PoisonDust_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: c60a98b61c2650d42ac02d4382973af5
+    - name: Rosine_PoisonDust_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: db604062877473543bc634a17e9c75a9
+    - name: Rosine_PoisonDust_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: ef13524046dc11e46a65bd2a40a0b5a4
+    - name: Rosine_PoisonDust_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: fe3de9e030a23634cb215ac4ded1ab34
+    - name: Rosine_PoisonDust_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: f177bfff5f1773e43950bdef1eb4bc54
+    - name: Rosine_PoisonDust_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 4bd3a0286cedf7347bd91ba33f74f018
+    - name: Rosine_PoisonDust_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: d2a9077dabb3b194d85d25e3923e415d
+    - name: Rosine_PoisonDust_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 6f9aa85c6e2e03740b0408e89765303e
+    - name: Rosine_PoisonDust_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: c83983283063731409352b93291ac3a6
+    - name: Rosine_PoisonDust_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 5bc923e125cee5c46baa0f1ea0105519
+    - name: Rosine_PoisonDust_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 6b77fe8479370334fadcfec70a666c8d
+    - name: Rosine_PoisonDust_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: bbcb506cb7e04df4fac2662528f7b439
+    - name: Rosine_PoisonDust_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -122
+        y: -317
+        width: 411
+        height: 628
+      spriteId: 34d5ed20808fa4f4da9a06707b354d91
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 219, y: 156}

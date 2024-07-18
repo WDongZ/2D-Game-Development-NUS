@@ -32,8 +32,14 @@ public class BashEnemyBehaviour : Attacker
 
     void Update()
     {
+        moveSpeed = GetComponent<EntityAttribute>().moveSpeed;
         attackTimer -= Time.deltaTime;
         StateMachine(currentState);
+
+        if(GetComponent<EntityAttribute>().HP <= 0)
+        {
+            currentState = 0;
+        }
     }
 
     private void StateMachine(int state)

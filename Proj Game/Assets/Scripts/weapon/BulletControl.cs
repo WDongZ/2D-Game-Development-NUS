@@ -6,12 +6,13 @@ public class BulletControl : MonoBehaviour
 {
     private int count = 1;
     private float angle = 0;
-    public GameObject bulletPrefab;
+    public List<GameObject> bulletPrefabs;
+    public List<float> bulletRates;
     public Color bulletColor;
 
     private void Start()
     {
-        bulletColor = bulletPrefab.GetComponent<SpriteRenderer>().color;
+        bulletColor = new Color(225, 225, 225);
     }
 
     public void Burst(float interval, Vector2 direction, Vector3 Spawndirection)
@@ -26,9 +27,23 @@ public class BulletControl : MonoBehaviour
     private void SpreadFire(Vector2 direction, Vector3 Spawndirection)
     {
         int halfbulletNum = count / 2;
+        float totalRate = 0;
+        foreach (float f in bulletRates) totalRate += f;
+        float randomRate = Random.value;
+        float rates = 0;
+        GameObject randomBullet = null;
+        for (int i = 0; i < bulletPrefabs.Count; i++)
+        {
+            rates += bulletRates[i] / totalRate;
+            if (randomRate <= rates)
+            {
+                randomBullet = bulletPrefabs[i];
+                break;
+            }
+        }
         for (int i = 0; i < count; i++)
         {
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, bulletPrefab.transform.rotation);
+            GameObject bullet = Instantiate(randomBullet, transform.position, randomBullet.transform.rotation);
             bullet.GetComponent<SpriteRenderer>().color = bulletColor;
             bullet.transform.position = Spawndirection;
             //bullet.GetComponent<Bullet>().SetSpeed(direction);

@@ -511,16 +511,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 16
-  damage: 3
+  damage: 1
   hurtFactor: 1
   moveSpeed: 5.5
   statusList: []
   HPUpbound: 16
   TMP_HP: 0
-  attackSpeed: 0.6
+  attackSpeed: 0.3
   attackDistence: 0
   buffs: []
-  bullet: {fileID: 0}
+  bullets: []
+  bulletRates: []
   goldCoinNum: 0
 --- !u!114 &7873092591194385495
 MonoBehaviour:
@@ -534,5 +535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 125824ef78c23e949a4d971e9e40e918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8982252307934283585, guid: 8d7af0cba94008c479a112ac2cedf424, type: 3}
+  bulletPrefabs: []
+  bulletRates: []
   bulletColor: {r: 0, g: 0, b: 0, a: 0}

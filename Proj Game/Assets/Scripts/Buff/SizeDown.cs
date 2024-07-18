@@ -7,7 +7,7 @@ public class SizeDown : Buff
     void Awake()
     {
         buffName = "Colorful jellyfish";
-        buffDescription = "The magical jellyfish makes your body smaller";
+        buffDescription = "jellyfish makes your body smaller and increases your attack speed";
     }
     public SizeDown(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {

@@ -1,0 +1,2063 @@
+fileFormatVersion: 2
+guid: 7578e0723078aaa47ba40969dc70b517
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Decorative_wood_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 832
+        width: 191
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2264549ce4ee5d409d47599d2d5f7f5
+      internalID: 615639683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 928
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0d828cbca9f9345b443714a756fb4a
+      internalID: -1418152085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 896
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a498d419bcfbca4c87f1a65e07e2742
+      internalID: 1323968207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 896
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33772643b4311f45846632c0fba1894
+      internalID: 930106801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 896
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8181d568985991043a897392e63542b6
+      internalID: -1564884696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 896
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54a81af3b82af47845e554cd90a527
+      internalID: -160137493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 782
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a19a149251a38449a82fd0cd593c389
+      internalID: -1243669286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 842
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62abea0eb855044f9c5eba97109d335
+      internalID: 330668160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 832
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8efacf6d1b53fe46ab8e30deb6595f9
+      internalID: 574639586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 768
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1e12ad7d62a9b4b8d5f606c25d4dd7
+      internalID: -244421598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 768
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf739b2d49b7e5944a6d4a4f08d2334e
+      internalID: -1904079700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 768
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0a264d03e6429468b7f4db0ef94dc3
+      internalID: -2009169160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 545
+        width: 191
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58079c677d05ff94eb5a09bdfbbf767e
+      internalID: -1037866209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 641
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f458f575b61984db5c41c6ade2f07a
+      internalID: -150020563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 609
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a23cdf2f1e82074fae0bf756c72a51b
+      internalID: -1220972628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 609
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfce92974b3f7e44185ac609e2838f66
+      internalID: -1301663893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_16
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 609
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d33047799663c4dba84d328242d831
+      internalID: -1162858916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 609
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d21c6ea60efff40b31eeab0c4ace1c
+      internalID: 20238777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_18
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 526
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1909f868d8243443b6a57317b8f4288
+      internalID: 809322442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_19
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 586
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa33fdd3e6ae734992be4dd9f2e8d39
+      internalID: 175862092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 545
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c5dbc07d74cce43ae885b33729013d
+      internalID: -1778242222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 481
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78003fc5fa8e1b4f81e634e7c6cd53e
+      internalID: 1378365776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_22
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 481
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28b41dade346134d9c44ca7134f2f50
+      internalID: -1286483765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_23
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 481
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c647eca4ef76e64fbd82467fa5bb174
+      internalID: 1704603763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_24
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 452
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ab375b0f8f7e040a1546d0917a2e88
+      internalID: -786467625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 454
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08ffcb5944a6314790b3e4948ce523a
+      internalID: -776520432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 449
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b1b983e4d68c942acf7985ec94456c
+      internalID: 20779154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_27
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 449
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2745ae626a3a4c4297a767d70ab576e
+      internalID: -680014663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_28
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 452
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196be4030fdb38c4f97e49d05f87e393
+      internalID: 528321707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_29
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 330
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827aec2f5308711459b8bb0e168b444b
+      internalID: 1554547453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 270
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea628835f3b1a34eb58224b644402d1
+      internalID: 918984742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 290
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef00b824e726a44a998052e23f871c
+      internalID: -1479376727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 291
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1499529324fb64a9d79f6865d247c1
+      internalID: 2086997144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 426
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07a3a86d7b2142409be0b5e70542f63
+      internalID: 1315764308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_34
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 422
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb69d35fbb50f24fb933c22346b82d5
+      internalID: 16426221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 420
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d49768b9013aaa4b9d4818c2064c002
+      internalID: -1411905080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_36
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 427
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62b193f6a2947a45a2c732377e78eef
+      internalID: 1677280444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 426
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd97936ed6319e14eb7552d46c526401
+      internalID: 282324369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_38
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 428
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f14e3c1e8179348a4273904b2cea7e
+      internalID: 1622911696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 288
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e27502abf9b474badb991b18753090
+      internalID: 127419528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 394
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803c9058df5ded04b9fd6307e641ecaf
+      internalID: -1005466516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_41
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 385
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e0b090e92f99a42b5ec9cb64bda5c6
+      internalID: -1028762985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_42
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 385
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b20dda54906f6246a4b9f6ce344e661
+      internalID: -1884234843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_43
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 388
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e64d1b24a6a05947a134346433b6341
+      internalID: -2103133991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_44
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 290
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb197a27f95792546adb63bfd1840d8f
+      internalID: 386878287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_45
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 291
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acb56a5177ebaa45a65cec315a5cd37
+      internalID: 1987566217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 363
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a34a743e1af39c47a28c7188bde1dd0
+      internalID: -482454404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_47
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 362
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc67e8a26e9a2b49b3950b43a3581b3
+      internalID: 87229468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_48
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 364
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433f3793131acd649bbacb186fa043c7
+      internalID: -963936130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 290
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e59c44596c9fd440b83bdfea363de8f
+      internalID: 1047657192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_50
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 321
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc6120445d7b1a43834ee49b3343172
+      internalID: 438719203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_51
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 321
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e85464e9c35844dab6c7026d797cab
+      internalID: 935702767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_52
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 324
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672d477932b329a46821e8b115e746e5
+      internalID: -1416863006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_53
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 299
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6efd6a60563bb84eb0fd41b76256de1
+      internalID: -1543032067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_54
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 298
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ff02af1411724db38cb3509648bf5
+      internalID: 2015586588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_55
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 300
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd796184490bb9408fa6e8b8d5d1b65
+      internalID: -1964131775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd188c9c21d5e9e49894e76ae8eac0f7
+      internalID: 1271336941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 131
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1465d7ffa71adf540b188efdaa8569a1
+      internalID: -2076549867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_58
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 260
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1446c0c58df0418748625cbc09b38
+      internalID: -533843387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_59
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 257
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78016be1693c2f049a25afe113913236
+      internalID: 1312693617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_60
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 257
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f0489af7e521d45a35855a1a39e810
+      internalID: -1830758654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_61
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 128
+        width: 85
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396bc65d5ebd97048bb67ccd1c586554
+      internalID: 1687251179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_62
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 236
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60040624de135f4b8d0d2320fa948a4
+      internalID: 1208139585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_63
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 234
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0499ed1c5fa911943b4a2236700f8a98
+      internalID: -914120419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_64
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 235
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f854f42be6e2744a1332c1c4ef5826
+      internalID: 1015996066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_65
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 14
+        width: 182
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c7255703a50c54f958320acee61c42
+      internalID: -618581543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_66
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb21a00dd3c4c8d43897d59b7a1221ae
+      internalID: 563173259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_67
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 130
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21ddbccb92bc374b95ac3a9e58c1259
+      internalID: -519734237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 131
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd39bbc4753a9f74a895f45cfcccd2f7
+      internalID: 1744894755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_69
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 196
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef4067ec4a54d544b4cbfa2b409255d
+      internalID: -535605597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_70
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 193
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca3570daea00f940af9b19f766cbda0
+      internalID: -2136293456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_71
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 193
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bc173288bccd34a845c2dbfd6deb47
+      internalID: 1576177620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_72
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 74
+        width: 113
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d96761c3c3a144b9dfd00c5bcbb4a7
+      internalID: -1103687144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_73
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 172
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121cc8f6a37b49049ac09c701b8d811b
+      internalID: -1753209429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_74
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 170
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569af074ecc11b84ca1dd2aef9e37c97
+      internalID: 258641756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_75
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 171
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf935e95ade54b4eb700f685ac4f4a8
+      internalID: 773051513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_76
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 132
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454fba42ff1771e4287c910a2658527d
+      internalID: -370813509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_77
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 129
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eae215fa73f19440a1cd1f2cb14f770
+      internalID: -116182360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_78
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 129
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae26eb02a78e3242bbe4f98387fae52
+      internalID: -749482359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_79
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d40270c9f3aeb40af37daaa94f2236
+      internalID: -1179184362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_80
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234416157ba69a940b750e9636efcf3f
+      internalID: -1052594186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_81
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 108
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbacc0e9904841438bd24453c762b4f
+      internalID: 1262695999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_82
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 106
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881f9fadbe510564fa630a4f1f167fb6
+      internalID: -1750921831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 107
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e3a933da2573f4199072d12c96edd8
+      internalID: 1190518803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da6990b5200b0c4381c05357800acb6
+      internalID: -1895910283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_85
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed164d0dd263dd47b28c810e18a1a7a
+      internalID: 1242676385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_86
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca42b0be73f17814b8e4a12809db1c58
+      internalID: -354167388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorative_wood_87
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca3314d696676945a4e05a9e4d89d7d
+      internalID: -376890828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Decorative_wood_0: 615639683
+      Decorative_wood_1: -1418152085
+      Decorative_wood_10: -1904079700
+      Decorative_wood_11: -2009169160
+      Decorative_wood_12: -1037866209
+      Decorative_wood_13: -150020563
+      Decorative_wood_14: -1220972628
+      Decorative_wood_15: -1301663893
+      Decorative_wood_16: -1162858916
+      Decorative_wood_17: 20238777
+      Decorative_wood_18: 809322442
+      Decorative_wood_19: 175862092
+      Decorative_wood_2: 1323968207
+      Decorative_wood_20: -1778242222
+      Decorative_wood_21: 1378365776
+      Decorative_wood_22: -1286483765
+      Decorative_wood_23: 1704603763
+      Decorative_wood_24: -786467625
+      Decorative_wood_25: -776520432
+      Decorative_wood_26: 20779154
+      Decorative_wood_27: -680014663
+      Decorative_wood_28: 528321707
+      Decorative_wood_29: 1554547453
+      Decorative_wood_3: 930106801
+      Decorative_wood_30: 918984742
+      Decorative_wood_31: -1479376727
+      Decorative_wood_32: 2086997144
+      Decorative_wood_33: 1315764308
+      Decorative_wood_34: 16426221
+      Decorative_wood_35: -1411905080
+      Decorative_wood_36: 1677280444
+      Decorative_wood_37: 282324369
+      Decorative_wood_38: 1622911696
+      Decorative_wood_39: 127419528
+      Decorative_wood_4: -1564884696
+      Decorative_wood_40: -1005466516
+      Decorative_wood_41: -1028762985
+      Decorative_wood_42: -1884234843
+      Decorative_wood_43: -2103133991
+      Decorative_wood_44: 386878287
+      Decorative_wood_45: 1987566217
+      Decorative_wood_46: -482454404
+      Decorative_wood_47: 87229468
+      Decorative_wood_48: -963936130
+      Decorative_wood_49: 1047657192
+      Decorative_wood_5: -160137493
+      Decorative_wood_50: 438719203
+      Decorative_wood_51: 935702767
+      Decorative_wood_52: -1416863006
+      Decorative_wood_53: -1543032067
+      Decorative_wood_54: 2015586588
+      Decorative_wood_55: -1964131775
+      Decorative_wood_56: 1271336941
+      Decorative_wood_57: -2076549867
+      Decorative_wood_58: -533843387
+      Decorative_wood_59: 1312693617
+      Decorative_wood_6: -1243669286
+      Decorative_wood_60: -1830758654
+      Decorative_wood_61: 1687251179
+      Decorative_wood_62: 1208139585
+      Decorative_wood_63: -914120419
+      Decorative_wood_64: 1015996066
+      Decorative_wood_65: -618581543
+      Decorative_wood_66: 563173259
+      Decorative_wood_67: -519734237
+      Decorative_wood_68: 1744894755
+      Decorative_wood_69: -535605597
+      Decorative_wood_7: 330668160
+      Decorative_wood_70: -2136293456
+      Decorative_wood_71: 1576177620
+      Decorative_wood_72: -1103687144
+      Decorative_wood_73: -1753209429
+      Decorative_wood_74: 258641756
+      Decorative_wood_75: 773051513
+      Decorative_wood_76: -370813509
+      Decorative_wood_77: -116182360
+      Decorative_wood_78: -749482359
+      Decorative_wood_79: -1179184362
+      Decorative_wood_8: 574639586
+      Decorative_wood_80: -1052594186
+      Decorative_wood_81: 1262695999
+      Decorative_wood_82: -1750921831
+      Decorative_wood_83: 1190518803
+      Decorative_wood_84: -1895910283
+      Decorative_wood_85: 1242676385
+      Decorative_wood_86: -354167388
+      Decorative_wood_87: -376890828
+      Decorative_wood_9: -244421598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

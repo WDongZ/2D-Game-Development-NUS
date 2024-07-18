@@ -39,6 +39,7 @@ public class EnemyBigBehaviour : MonoBehaviour
 
     void Update()
     {
+        moveSpeed = GetComponent<EntityAttribute>().moveSpeed;
         StateMachine(currentState);
     }
 

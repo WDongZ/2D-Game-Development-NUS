@@ -31,6 +31,11 @@ public class EnemyShotBehaviour : MonoBehaviour
     void Update()
     {
         StateMachine(currentState);
+
+        if (GetComponent<EntityAttribute>().HP <= 0)
+        {
+            currentState = 0;
+        }
     }
 
     private void StateMachine(int state)

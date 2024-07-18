@@ -6,21 +6,30 @@ public class RandomItemSpawner : MonoBehaviour
     public Transform spawnLocation1;
     public Transform spawnLocation2;
     public Transform spawnLocation3;
+    private GameObject prop1;
+    private GameObject prop2;
 
-    [SerializeField] private GameObject[] items;
+    public List<GameObject> itemsList;
 
     void Start()
     {
-        List<GameObject> itemsList = new List<GameObject>(items);
-        SpawnRandomItem(spawnLocation2, itemsList);
-        SpawnRandomItem(spawnLocation3, itemsList);
+        prop1 = SpawnRandomItem(spawnLocation2, itemsList);
+        prop2 = SpawnRandomItem(spawnLocation3, itemsList);
     }
 
-    void SpawnRandomItem(Transform spawnLocation, List<GameObject> itemsList)
+    private GameObject SpawnRandomItem(Transform spawnLocation, List<GameObject> itemsList)
     {
         int randomIndex = Random.Range(0, itemsList.Count);
         GameObject itemToSpawn = itemsList[randomIndex];
-        Instantiate(itemToSpawn, spawnLocation.position, spawnLocation.rotation);
         itemsList.RemoveAt(randomIndex);
+        return Instantiate(itemToSpawn, spawnLocation.position, spawnLocation.rotation);
+    }
+
+    public void ReRollItem()
+    {
+        Destroy(prop1);
+        Destroy(prop2);
+        prop1 = SpawnRandomItem(spawnLocation2, itemsList);
+        prop2 = SpawnRandomItem(spawnLocation3, itemsList);
     }
 }

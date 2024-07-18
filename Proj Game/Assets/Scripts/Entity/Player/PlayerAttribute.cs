@@ -9,7 +9,8 @@ public class PlayerAttribute : EntityAttribute
     public float attackSpeed;
     public float attackDistence;
     public List<Buff> buffs = new List<Buff>();
-    public GameObject bullet;
+    public List<GameObject> bullets;
+    public List<float> bulletRates;
     public int goldCoinNum;
     private const int MaxHP = 32;
 
@@ -41,4 +42,4 @@ class TMP_HP
 
 
 
-enum Element { fire, water, grass}
+enum Element { fire, water, grass }

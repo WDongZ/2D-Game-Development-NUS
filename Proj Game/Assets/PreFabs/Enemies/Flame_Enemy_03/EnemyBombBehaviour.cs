@@ -22,7 +22,13 @@ public class EnemyBombBehaviour : MonoBehaviour
 
     void Update()
     {
+        moveSpeed = GetComponent<EntityAttribute>().moveSpeed;
         StateMachine(currentState);
+
+        if(GetComponent<EntityAttribute>().HP <= 0)
+        {
+            currentState = 0;
+        }
     }
 
     private void StateMachine(int state)

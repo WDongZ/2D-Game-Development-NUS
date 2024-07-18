@@ -27,6 +27,8 @@ public class EnemyController : EntityAttribute
             isDead = true;
             GetComponent<Collider2D>().enabled = false;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<SpriteRenderer>().enabled = true;
+
         }
         anim.SetBool("isHurt", isHurt);
         anim.SetBool("isDead", isDead);

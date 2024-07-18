@@ -43,6 +43,7 @@ public class BossBehavior_01 : MonoBehaviour
 
     void Update()
     {
+        moveSpeed = GetComponent<EntityAttribute>().moveSpeed;
         if (GetComponent<EnemyController>().HP <= 0) {
             SceneManager.LoadScene("Ending");
             transform.GetChild(0).gameObject.SetActive(false);

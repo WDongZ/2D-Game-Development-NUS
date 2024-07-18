@@ -7,7 +7,7 @@ public class MoveSpeedDown : Buff
     void Awake()
     {
         buffName = "The wings of the little devil";
-        buffDescription = "Demons have always been traded equally, exchanging attack power with movement speed?";
+        buffDescription = "exchanging attack power with movement speed?";
     }
     public MoveSpeedDown(string buffName, string buffDescription, GameObject player) : base(buffName, buffDescription, player)
     {
